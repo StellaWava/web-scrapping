@@ -13,15 +13,15 @@ import requests
 
 
 #STEP 1
-# url = 'https://www.arcgis.com/sharing/rest/content/items/92e772c4f65a4848a29bcc24c8f61bab/data?f=json'
-# response = requests.get(url)
-# #print(response)
-# if response.status_code == 200:
-#     #print(response.headers)
-#     #print(response.content)
-#     json_response = response.json()
-#     data = json_response['operationalLayers'] #[2]['url']
-#     # for v in data[0]:
+url = 'https://www.arcgis.com/sharing/rest/content/items/92e772c4f65a4848a29bcc24c8f61bab/data?f=json'
+response = requests.get(url)
+#print(response)
+if response.status_code == 200:
+    #print(response.headers)
+    #print(response.content)
+    json_response = response.json()
+    data = json_response['operationalLayers'] #[2]['url']
+    # for v in data[0]:
     #     #return keys of object 1
     #     print(v)
     #     #return values of object 1
@@ -42,13 +42,13 @@ import requests
     #     #draw separator. 
     #     print("-" * 40)
     
-    # #now improve the data to go to a csv/ json file
+    # # #now improve the data to go to a csv/ json file
     # with open('output1.json', 'w') as json_file:
     #     json.dump(data, json_file, indent=4)
     
     # print("JSON file has been created.")
     
-    #to csv - a little effort
+    # #to csv - a little effort
     # headers = ['id', 'url', 'visibility', 'opacity', 'title', 'itemId', 'type', 'layerType', 'visibleFolders']
     # with open('filtered_output.csv', mode='w', newline='') as file:
     #     writer = csv.DictWriter(file, fieldnames=headers)
