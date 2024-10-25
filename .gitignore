@@ -1,0 +1,35 @@
+# Ignore system-generated files
+desktop.ini
+.DS_Store
+
+# Ignore Python bytecode and virtual environment folders
+__pycache__/
+*.py[cod]
+*.egg-info/
+*.eggs/
+*.sqlite
+*.log
+venv/
+.env
+
+# Ignore Scrapy output files (if you store them locally)
+output_file.json
+output_file.csv
+output_file.xml
+
+# Ignore temporary working files
+*.swp
+*.bak
+*~
+
+# Ignore compiled files
+*.o
+*.so
+*.a
+
+# Ignore local IDE/project files (if you're using VSCode or PyCharm)
+.vscode/
+.idea/
+
+# Ignore any configuration or secret files you do not want to share
+.env
