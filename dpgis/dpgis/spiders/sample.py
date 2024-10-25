@@ -117,3 +117,7 @@ with open('Air_Now_Monitors_Ozone.csv', mode='w', newline='') as file:
         # Write the row to the CSV file
         writer.writerow(row)
 print("CSV file has been created: Air_Now_Monitors_Ozon.csv")
+
+
+
+#Now write a script for all the links in the json/csv file. 
