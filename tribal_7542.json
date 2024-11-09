@@ -1,0 +1,5571 @@
+{
+    "displayFieldName": "NAME",
+    "fieldAliases": {
+        "OBJECTID": "OBJECTID",
+        "NAME": "AK Native Village",
+        "TRIBE_NAME": "Tribe",
+        "CFRTRIBE_1": "Description",
+        "TYPE": "Entity Type",
+        "EPA_ID": "EPA ID",
+        "BIA_CODE": "BIA ID",
+        "FFS_ID": "BLM ID",
+        "CURRENT_TO": "Date Extracted",
+        "SOURCE": "Data Source",
+        "STATE": "State",
+        "REGION": "Region",
+        "LEAD_REGION": "Lead Region",
+        "CURRENT_USE": "Current_Use",
+        "COMMENT": "Comment",
+        "NAME_HISTORY": "Name History"
+    },
+    "geometryType": "esriGeometryPoint",
+    "spatialReference": {
+        "wkid": 4269,
+        "latestWkid": 4269
+    },
+    "fields": [
+        {
+            "name": "OBJECTID",
+            "type": "esriFieldTypeOID",
+            "alias": "OBJECTID"
+        },
+        {
+            "name": "NAME",
+            "type": "esriFieldTypeString",
+            "alias": "AK Native Village",
+            "length": 20
+        },
+        {
+            "name": "TRIBE_NAME",
+            "type": "esriFieldTypeString",
+            "alias": "Tribe",
+            "length": 350
+        },
+        {
+            "name": "CFRTRIBE_1",
+            "type": "esriFieldTypeString",
+            "alias": "Description",
+            "length": 254
+        },
+        {
+            "name": "TYPE",
+            "type": "esriFieldTypeString",
+            "alias": "Entity Type",
+            "length": 16
+        },
+        {
+            "name": "EPA_ID",
+            "type": "esriFieldTypeInteger",
+            "alias": "EPA ID"
+        },
+        {
+            "name": "BIA_CODE",
+            "type": "esriFieldTypeString",
+            "alias": "BIA ID",
+            "length": 3
+        },
+        {
+            "name": "FFS_ID",
+            "type": "esriFieldTypeDouble",
+            "alias": "BLM ID"
+        },
+        {
+            "name": "CURRENT_TO",
+            "type": "esriFieldTypeDate",
+            "alias": "Date Extracted",
+            "length": 8
+        },
+        {
+            "name": "SOURCE",
+            "type": "esriFieldTypeString",
+            "alias": "Data Source",
+            "length": 255
+        },
+        {
+            "name": "STATE",
+            "type": "esriFieldTypeString",
+            "alias": "State",
+            "length": 10
+        },
+        {
+            "name": "REGION",
+            "type": "esriFieldTypeString",
+            "alias": "Region",
+            "length": 10
+        },
+        {
+            "name": "LEAD_REGION",
+            "type": "esriFieldTypeString",
+            "alias": "Lead Region",
+            "length": 10
+        },
+        {
+            "name": "CURRENT_USE",
+            "type": "esriFieldTypeString",
+            "alias": "Current_Use",
+            "length": 1
+        },
+        {
+            "name": "COMMENT",
+            "type": "esriFieldTypeString",
+            "alias": "Comment",
+            "length": 255
+        },
+        {
+            "name": "NAME_HISTORY",
+            "type": "esriFieldTypeString",
+            "alias": "Name History",
+            "length": 1620
+        }
+    ],
+    "features": [
+        {
+            "attributes": {
+                "OBJECTID": 1,
+                "NAME": "Juneau",
+                "TRIBE_NAME": "Central Council of the Tlingit & Haida Indian Tribes",
+                "CFRTRIBE_1": "Central Council of the Tlingit and Haida Indian Tribes (Juneau)",
+                "TYPE": "Town",
+                "EPA_ID": 100000551,
+                "BIA_CODE": "TBD",
+                "FFS_ID": 801,
+                "CURRENT_TO": 1679875200000,
+                "SOURCE": "EPA",
+                "STATE": "AK",
+                "REGION": "10",
+                "LEAD_REGION": "10",
+                "CURRENT_USE": "Y",
+                "COMMENT": "",
+                "NAME_HISTORY": "1995: Central Council of the Tlingit & Haida Indian Tribes"
+            },
+            "geometry": {
+                "x": -134.4032850533092,
+                "y": 58.30224502112253
+            }
+        },
+        {
+            "attributes": {
+                "OBJECTID": 2,
+                "NAME": "King Salmon",
+                "TRIBE_NAME": "King Salmon Tribe",
+                "CFRTRIBE_1": "King Salmon Tribe",
+                "TYPE": "Town",
+                "EPA_ID": 100000440,
+                "BIA_CODE": "TBD",
+                "FFS_ID": 254,
+                "CURRENT_TO": 1679875200000,
+                "SOURCE": "EPA",
+                "STATE": "AK",
+                "REGION": "10",
+                "LEAD_REGION": "10",
+                "CURRENT_USE": "Y",
+                "COMMENT": "Not listed on BIA TribeCode list",
+                "NAME_HISTORY": "2002: King Salmon Tribe"
+            },
+            "geometry": {
+                "x": -156.65570911285454,
+                "y": 58.67927479380407
+            }
+        },
+        {
+            "attributes": {
+                "OBJECTID": 3,
+                "NAME": "Unga",
+                "TRIBE_NAME": "Native Village of Unga",
+                "CFRTRIBE_1": "Unga, Native Village of",
+                "TYPE": "Town",
+                "EPA_ID": 100000561,
+                "BIA_CODE": "TBD",
+                "FFS_ID": 511,
+                "CURRENT_TO": 1679875200000,
+                "SOURCE": "EPA",
+                "STATE": "AK",
+                "REGION": "10",
+                "LEAD_REGION": "10",
+                "CURRENT_USE": "Y",
+                "COMMENT": "",
+                "NAME_HISTORY": "1993: Native Village of Unga"
+            },
+            "geometry": {
+                "x": -160.5094115872058,
+                "y": 55.18422450211227
+            }
+        },
+        {
+            "attributes": {
+                "OBJECTID": 4,
+                "NAME": "Georgetown",
+                "TRIBE_NAME": "Native Village of Georgetown",
+                "CFRTRIBE_1": "Georgetown, Native Village of",
+                "TYPE": "Town",
+                "EPA_ID": 100000410,
+                "BIA_CODE": "TBD",
+                "FFS_ID": 170,
+                "CURRENT_TO": 1679875200000,
+                "SOURCE": "EPA",
+                "STATE": "AK",
+                "REGION": "10",
+                "LEAD_REGION": "10",
+                "CURRENT_USE": "Y",
+                "COMMENT": "",
+                "NAME_HISTORY": "1993: Native Village of Georgetown"
+            },
+            "geometry": {
+                "x": -157.7866063166365,
+                "y": 61.908543552605124
+            }
+        },
+        {
+            "attributes": {
+                "OBJECTID": 5,
+                "NAME": "Afognak",
+                "TRIBE_NAME": "Native Village of Afognak",
+                "CFRTRIBE_1": "Afognak, Village of",
+                "TYPE": "Town",
+                "EPA_ID": 100000340,
+                "BIA_CODE": "TBD",
+                "FFS_ID": 2,
+                "CURRENT_TO": 1679875200000,
+                "SOURCE": "EPA",
+                "STATE": "AK",
+                "REGION": "10",
+                "LEAD_REGION": "10",
+                "CURRENT_USE": "Y",
+                "COMMENT": "",
+                "NAME_HISTORY": "1993: Village of Afognak; \n2003: Native Village of Afognak (formerly the Village of Afognak); \n2009: Native Village of Afognak"
+            },
+            "geometry": {
+                "x": -152.77507845503922,
+                "y": 58.01424361295517
+            }
+        },
+        {
+            "attributes": {
+                "OBJECTID": 6,
+                "NAME": "Pauloff Harbor",
+                "TRIBE_NAME": "Pauloff Harbor Village",
+                "CFRTRIBE_1": "Pauloff Harbor Village",
+                "TYPE": "Town",
+                "EPA_ID": 100000500,
+                "BIA_CODE": "TBD",
+                "FFS_ID": 324,
+                "CURRENT_TO": 1679875200000,
+                "SOURCE": "EPA",
+                "STATE": "AK",
+                "REGION": "10",
+                "LEAD_REGION": "10",
+                "CURRENT_USE": "Y",
+                "COMMENT": "",
+                "NAME_HISTORY": "1993: Pauloff Harbor Village"
+            },
+            "geometry": {
+                "x": -162.70035908267954,
+                "y": 54.458853349426704
+            }
+        },
+        {
+            "attributes": {
+                "OBJECTID": 7,
+                "NAME": "Paimiut",
+                "TRIBE_NAME": "Native Village of Paimiut",
+                "CFRTRIBE_1": "Paimiut, Native Village of",
+                "TYPE": "Town",
+                "EPA_ID": 100000499,
+                "BIA_CODE": "TBD",
+                "FFS_ID": 371,
+                "CURRENT_TO": 1679875200000,
+                "SOURCE": "EPA",
+                "STATE": "AK",
+                "REGION": "10",
+                "LEAD_REGION": "10",
+                "CURRENT_USE": "Y",
+                "COMMENT": "",
+                "NAME_HISTORY": "1993: Native Village of Paimiut"
+            },
+            "geometry": {
+                "x": -165.83040937437136,
+                "y": 61.69707503520419
+            }
+        },
+        {
+            "attributes": {
+                "OBJECTID": 8,
+                "NAME": "Kaguyak",
+                "TRIBE_NAME": "Kaguyak Village",
+                "CFRTRIBE_1": "Kaguyak Village",
+                "TYPE": "Town",
+                "EPA_ID": 100000427,
+                "BIA_CODE": "TBD",
+                "FFS_ID": 586,
+                "CURRENT_TO": 1679875200000,
+                "SOURCE": "EPA",
+                "STATE": "AK",
+                "REGION": "10",
+                "LEAD_REGION": "10",
+                "CURRENT_USE": "Y",
+                "COMMENT": "",
+                "NAME_HISTORY": "1993: Kaguyak Village"
+            },
+            "geometry": {
+                "x": -153.76695534097766,
+                "y": 56.85942063971035
+            }
+        },
+        {
+            "attributes": {
+                "OBJECTID": 9,
+                "NAME": "Tangirnaq",
+                "TRIBE_NAME": "Tangirnaq Native Village",
+                "CFRTRIBE_1": "Tangirnaq Native Village",
+                "TYPE": "Town",
+                "EPA_ID": 100000545,
+                "BIA_CODE": "TBD",
+                "FFS_ID": 531,
+                "CURRENT_TO": 1679875200000,
+                "SOURCE": "EPA",
+                "STATE": "AK",
+                "REGION": "10",
+                "LEAD_REGION": "10",
+                "CURRENT_USE": "Y",
+                "COMMENT": "BIA TribeCode file does not reflect name change",
+                "NAME_HISTORY": "1993: Lesnoi Village (aka Woody Island); \n2010: Tangirnaq Native Village (formerly Lesnoi Village (aka Woody Island))"
+            },
+            "geometry": {
+                "x": -152.58602293301146,
+                "y": 57.709878294105835
+            }
+        },
+        {
+            "attributes": {
+                "OBJECTID": 10,
+                "NAME": "Hamilton",
+                "TRIBE_NAME": "Native Village of Hamilton",
+                "CFRTRIBE_1": "Hamilton, Native Village of",
+                "TYPE": "Town",
+                "EPA_ID": 100000414,
+                "BIA_CODE": "TBD",
+                "FFS_ID": 189,
+                "CURRENT_TO": 1679875200000,
+                "SOURCE": "EPA",
+                "STATE": "AK",
+                "REGION": "10",
+                "LEAD_REGION": "10",
+                "CURRENT_USE": "Y",
+                "COMMENT": "",
+                "NAME_HISTORY": "1993: Native Village of Hamilton"
+            },
+            "geometry": {
+                "x": -163.77119493059746,
+                "y": 62.94561959364316
+            }
+        },
+        {
+            "attributes": {
+                "OBJECTID": 11,
+                "NAME": "Choolunawick",
+                "TRIBE_NAME": "Chuloonawick Native Village",
+                "CFRTRIBE_1": "Chuloonawick Native Village",
+                "TYPE": "Town",
+                "EPA_ID": 100000384,
+                "BIA_CODE": "TBD",
+                "FFS_ID": 92,
+                "CURRENT_TO": 1679875200000,
+                "SOURCE": "EPA",
+                "STATE": "AK",
+                "REGION": "10",
+                "LEAD_REGION": "10",
+                "CURRENT_USE": "Y",
+                "COMMENT": "",
+                "NAME_HISTORY": "1993: Chuloonawick Native Village"
+            },
+            "geometry": {
+                "x": -163.88019613759806,
+                "y": 62.893155300744326
+            }
+        },
+        {
+            "attributes": {
+                "OBJECTID": 12,
+                "NAME": "Umkumiute",
+                "TRIBE_NAME": "Umkumiut Native Village",
+                "CFRTRIBE_1": "Umkumiute Native Village (Umkimute)",
+                "TYPE": "Town",
+                "EPA_ID": 100000559,
+                "BIA_CODE": "TBD",
+                "FFS_ID": 508,
+                "CURRENT_TO": 1679875200000,
+                "SOURCE": "EPA",
+                "STATE": "AK",
+                "REGION": "10",
+                "LEAD_REGION": "10",
+                "CURRENT_USE": "Y",
+                "COMMENT": "",
+                "NAME_HISTORY": "1993: Umkumiute Native Village; \n2010: Umkumiut Native Village (previously listed as Umkumiute Native Village)"
+            },
+            "geometry": {
+                "x": -165.19255180044257,
+                "y": 60.500293703480196
+            }
+        },
+        {
+            "attributes": {
+                "OBJECTID": 13,
+                "NAME": "Marys Igloo",
+                "TRIBE_NAME": "Native Village of Mary's Igloo",
+                "CFRTRIBE_1": "Marys Igloo, Native Village of",
+                "TYPE": "Town",
+                "EPA_ID": 100000463,
+                "BIA_CODE": "TBD",
+                "FFS_ID": 299,
+                "CURRENT_TO": 1679875200000,
+                "SOURCE": "EPA",
+                "STATE": "AK",
+                "REGION": "10",
+                "LEAD_REGION": "10",
+                "CURRENT_USE": "Y",
+                "COMMENT": "",
+                "NAME_HISTORY": "1993: Native Village of Mary's Igloo"
+            },
+            "geometry": {
+                "x": -165.0709877288272,
+                "y": 65.1430818748743
+            }
+        },
+        {
+            "attributes": {
+                "OBJECTID": 14,
+                "NAME": "Ohogamiut",
+                "TRIBE_NAME": "Village of Ohogamiut",
+                "CFRTRIBE_1": "Ohogamiut, Village of",
+                "TYPE": "Town",
+                "EPA_ID": 100000494,
+                "BIA_CODE": "TBD",
+                "FFS_ID": 366,
+                "CURRENT_TO": 1679875200000,
+                "SOURCE": "EPA",
+                "STATE": "AK",
+                "REGION": "10",
+                "LEAD_REGION": "10",
+                "CURRENT_USE": "Y",
+                "COMMENT": "",
+                "NAME_HISTORY": "1993: Village of Ohogamiut"
+            },
+            "geometry": {
+                "x": -161.86667672500502,
+                "y": 61.58752263126132
+            }
+        },
+        {
+            "attributes": {
+                "OBJECTID": 15,
+                "NAME": "Bill Moore's Slough",
+                "TRIBE_NAME": "Village of Bill Moore's Slough",
+                "CFRTRIBE_1": "Bill Moores Slough, Village of",
+                "TYPE": "Town",
+                "EPA_ID": 100000365,
+                "BIA_CODE": "TBD",
+                "FFS_ID": 47,
+                "CURRENT_TO": 1679875200000,
+                "SOURCE": "EPA",
+                "STATE": "AK",
+                "REGION": "10",
+                "LEAD_REGION": "10",
+                "CURRENT_USE": "Y",
+                "COMMENT": "",
+                "NAME_HISTORY": "1993: Village of Bill Moore's Slough"
+            },
+            "geometry": {
+                "x": -164.15685576342787,
+                "y": 62.98018205592439
+            }
+        },
+        {
+            "attributes": {
+                "OBJECTID": 16,
+                "NAME": "Unalaska",
+                "TRIBE_NAME": "Qawalangin Tribe of Unalaska",
+                "CFRTRIBE_1": "Qawalangin Tribe of Unalaska",
+                "TYPE": "Village",
+                "EPA_ID": 100000516,
+                "BIA_CODE": "TBD",
+                "FFS_ID": 510,
+                "CURRENT_TO": 1679875200000,
+                "SOURCE": "EPA",
+                "STATE": "AK",
+                "REGION": "10",
+                "LEAD_REGION": "10",
+                "CURRENT_USE": "Y",
+                "COMMENT": "",
+                "NAME_HISTORY": "1993: Qawalingin Tribe of Unalaska; \n1997: Qawalangin Tribe of Unalaska"
+            },
+            "geometry": {
+                "x": -166.53270368135185,
+                "y": 53.87331522832429
+            }
+        },
+        {
+            "attributes": {
+                "OBJECTID": 17,
+                "NAME": "Russian Mission",
+                "TRIBE_NAME": "Iqugmiut Traditional Council",
+                "CFRTRIBE_1": "Iqurmuit Traditional Council (Russian Mission)",
+                "TYPE": "Village",
+                "EPA_ID": 100000425,
+                "BIA_CODE": "TBD",
+                "FFS_ID": 418,
+                "CURRENT_TO": 1679875200000,
+                "SOURCE": "EPA",
+                "STATE": "AK",
+                "REGION": "10",
+                "LEAD_REGION": "10",
+                "CURRENT_USE": "Y",
+                "COMMENT": "",
+                "NAME_HISTORY": "1997: Iqurmuit Traditional Council (formerly Native Village of Russian Mission); \n2009: Iqurmuit Traditional Council;\n2020: Iqugmiut Traditional Council"
+            },
+            "geometry": {
+                "x": -161.32518406759203,
+                "y": 61.78558137195736
+            }
+        },
+        {
+            "attributes": {
+                "OBJECTID": 18,
+                "NAME": "Ouzinkie",
+                "TRIBE_NAME": "Native Village of Ouzinkie",
+                "CFRTRIBE_1": "Ouzinkie, Native Village of",
+                "TYPE": "Village",
+                "EPA_ID": 100000498,
+                "BIA_CODE": "TBD",
+                "FFS_ID": 370,
+                "CURRENT_TO": 1679875200000,
+                "SOURCE": "EPA",
+                "STATE": "AK",
+                "REGION": "10",
+                "LEAD_REGION": "10",
+                "CURRENT_USE": "Y",
+                "COMMENT": "",
+                "NAME_HISTORY": ""
+            },
+            "geometry": {
+                "x": -152.49615268557633,
+                "y": 57.92356970428486
+            }
+        },
+        {
+            "attributes": {
+                "OBJECTID": 19,
+                "NAME": "Chefornak",
+                "TRIBE_NAME": "Village of Chefornak",
+                "CFRTRIBE_1": "Chefornak, Village of",
+                "TYPE": "Village",
+                "EPA_ID": 100000373,
+                "BIA_CODE": "TBD",
+                "FFS_ID": 77,
+                "CURRENT_TO": 1679875200000,
+                "SOURCE": "EPA",
+                "STATE": "AK",
+                "REGION": "10",
+                "LEAD_REGION": "10",
+                "CURRENT_USE": "Y",
+                "COMMENT": "",
+                "NAME_HISTORY": ""
+            },
+            "geometry": {
+                "x": -164.27081673707502,
+                "y": 60.16072319452829
+            }
+        },
+        {
+            "attributes": {
+                "OBJECTID": 20,
+                "NAME": "Grayling",
+                "TRIBE_NAME": "Organized Village of Grayling (aka Holikachuk)",
+                "CFRTRIBE_1": "Grayling, Organized Village of (Holikachuk)",
+                "TYPE": "Village",
+                "EPA_ID": 100000412,
+                "BIA_CODE": "TBD",
+                "FFS_ID": 183,
+                "CURRENT_TO": 1679875200000,
+                "SOURCE": "EPA",
+                "STATE": "AK",
+                "REGION": "10",
+                "LEAD_REGION": "10",
+                "CURRENT_USE": "Y",
+                "COMMENT": "See notes 1/12/2023 and 1/8/2024",
+                "NAME_HISTORY": "1982: Organized Village of Grayling (aka Holikachuk)\n2023: Organized Village of Grayling (a.k.a. Holikachuk)\n2024: Organized Village of Grayling (aka Holikachuk)"
+            },
+            "geometry": {
+                "x": -160.0765570307785,
+                "y": 62.90616475558241
+            }
+        },
+        {
+            "attributes": {
+                "OBJECTID": 21,
+                "NAME": "Mountain Village",
+                "TRIBE_NAME": "Asa'carsarmiut Tribe",
+                "CFRTRIBE_1": "Asacarsarmiut Tribe (Mountain Village)",
+                "TYPE": "Village",
+                "EPA_ID": 100000358,
+                "BIA_CODE": "TBD",
+                "FFS_ID": 323,
+                "CURRENT_TO": 1679875200000,
+                "SOURCE": "EPA",
+                "STATE": "AK",
+                "REGION": "10",
+                "LEAD_REGION": "10",
+                "CURRENT_USE": "Y",
+                "COMMENT": "",
+                "NAME_HISTORY": "1997: Asa'carsarmiut Tribe (formerly Native Village of Mountain Village); \n2007: Asa'carsarmiut Tribe"
+            },
+            "geometry": {
+                "x": -163.7199034399517,
+                "y": 62.08839066586202
+            }
+        },
+        {
+            "attributes": {
+                "OBJECTID": 22,
+                "NAME": "Manokotak",
+                "TRIBE_NAME": "Manokotak Village",
+                "CFRTRIBE_1": "Manokotak Village",
+                "TYPE": "Village",
+                "EPA_ID": 100000461,
+                "BIA_CODE": "TBD",
+                "FFS_ID": 295,
+                "CURRENT_TO": 1679875200000,
+                "SOURCE": "EPA",
+                "STATE": "AK",
+                "REGION": "10",
+                "LEAD_REGION": "10",
+                "CURRENT_USE": "Y",
+                "COMMENT": "",
+                "NAME_HISTORY": ""
+            },
+            "geometry": {
+                "x": -159.05331221082278,
+                "y": 58.979619794809906
+            }
+        },
+        {
+            "attributes": {
+                "OBJECTID": 23,
+                "NAME": "Port Heiden",
+                "TRIBE_NAME": "Native Village of Port Heiden",
+                "CFRTRIBE_1": "Port Heiden, Native Village of",
+                "TYPE": "Village",
+                "EPA_ID": 100000511,
+                "BIA_CODE": "TBD",
+                "FFS_ID": 397,
+                "CURRENT_TO": 1679875200000,
+                "SOURCE": "EPA",
+                "STATE": "AK",
+                "REGION": "10",
+                "LEAD_REGION": "10",
+                "CURRENT_USE": "Y",
+                "COMMENT": "",
+                "NAME_HISTORY": ""
+            },
+            "geometry": {
+                "x": -158.6449527258097,
+                "y": 56.95655703077853
+            }
+        },
+        {
+            "attributes": {
+                "OBJECTID": 24,
+                "NAME": "Savoonga",
+                "TRIBE_NAME": "Native Village of Savoonga",
+                "CFRTRIBE_1": "Savoonga, Native Village of",
+                "TYPE": "Village",
+                "EPA_ID": 100000524,
+                "BIA_CODE": "TBD",
+                "FFS_ID": 426,
+                "CURRENT_TO": 1679875200000,
+                "SOURCE": "EPA",
+                "STATE": "AK",
+                "REGION": "10",
+                "LEAD_REGION": "10",
+                "CURRENT_USE": "Y",
+                "COMMENT": "",
+                "NAME_HISTORY": ""
+            },
+            "geometry": {
+                "x": -170.48068497284248,
+                "y": 63.69042747938042
+            }
+        },
+        {
+            "attributes": {
+                "OBJECTID": 25,
+                "NAME": "Shaktoolik",
+                "TRIBE_NAME": "Native Village of Shaktoolik",
+                "CFRTRIBE_1": "Shaktoolik, Native Village of",
+                "TYPE": "Village",
+                "EPA_ID": 100000530,
+                "BIA_CODE": "TBD",
+                "FFS_ID": 435,
+                "CURRENT_TO": 1679875200000,
+                "SOURCE": "EPA",
+                "STATE": "AK",
+                "REGION": "10",
+                "LEAD_REGION": "10",
+                "CURRENT_USE": "Y",
+                "COMMENT": "",
+                "NAME_HISTORY": ""
+            },
+            "geometry": {
+                "x": -161.1833021524844,
+                "y": 64.34995272580971
+            }
+        },
+        {
+            "attributes": {
+                "OBJECTID": 26,
+                "NAME": "Diomede",
+                "TRIBE_NAME": "Native Village of Diomede (aka Inalik)",
+                "CFRTRIBE_1": "Diomede, Native Village of (Inalik)",
+                "TYPE": "Village",
+                "EPA_ID": 100000392,
+                "BIA_CODE": "TBD",
+                "FFS_ID": 219,
+                "CURRENT_TO": 1679875200000,
+                "SOURCE": "EPA",
+                "STATE": "AK",
+                "REGION": "10",
+                "LEAD_REGION": "10",
+                "CURRENT_USE": "Y",
+                "COMMENT": "See notes 1/12/2023 and 1/8/2024",
+                "NAME_HISTORY": "1982: Native Village of Diomede (aka Inalik)\n2023: Native Village of Diomede (a.k.a. Inalik)\n2024: Native Village of Diomede (aka Inalik)"
+            },
+            "geometry": {
+                "x": -168.91108328304165,
+                "y": 65.76476765238385
+            }
+        },
+        {
+            "attributes": {
+                "OBJECTID": 27,
+                "NAME": "False Pass",
+                "TRIBE_NAME": "Native Village of False Pass",
+                "CFRTRIBE_1": "False Pass, Native Village of",
+                "TYPE": "Village",
+                "EPA_ID": 100000405,
+                "BIA_CODE": "TBD",
+                "FFS_ID": 149,
+                "CURRENT_TO": 1679875200000,
+                "SOURCE": "EPA",
+                "STATE": "AK",
+                "REGION": "10",
+                "LEAD_REGION": "10",
+                "CURRENT_USE": "Y",
+                "COMMENT": "",
+                "NAME_HISTORY": ""
+            },
+            "geometry": {
+                "x": -163.40684570508952,
+                "y": 54.85482900824786
+            }
+        },
+        {
+            "attributes": {
+                "OBJECTID": 28,
+                "NAME": "King Cove",
+                "TRIBE_NAME": "Agdaagux Tribe of King Cove",
+                "CFRTRIBE_1": "Agdaagux Tribe of King Cove",
+                "TYPE": "Village",
+                "EPA_ID": 100000341,
+                "BIA_CODE": "TBD",
+                "FFS_ID": 252,
+                "CURRENT_TO": 1679875200000,
+                "SOURCE": "EPA",
+                "STATE": "AK",
+                "REGION": "10",
+                "LEAD_REGION": "10",
+                "CURRENT_USE": "Y",
+                "COMMENT": "",
+                "NAME_HISTORY": "1993: Agdaagux Tribe of King Cove"
+            },
+            "geometry": {
+                "x": -162.31007443170387,
+                "y": 55.06286863810101
+            }
+        },
+        {
+            "attributes": {
+                "OBJECTID": 29,
+                "NAME": "Akutan",
+                "TRIBE_NAME": "Native Village of Akutan",
+                "CFRTRIBE_1": "Akutan, Native Village of",
+                "TYPE": "Village",
+                "EPA_ID": 100000345,
+                "BIA_CODE": "TBD",
+                "FFS_ID": 7,
+                "CURRENT_TO": 1679875200000,
+                "SOURCE": "EPA",
+                "STATE": "AK",
+                "REGION": "10",
+                "LEAD_REGION": "10",
+                "CURRENT_USE": "Y",
+                "COMMENT": "",
+                "NAME_HISTORY": ""
+            },
+            "geometry": {
+                "x": -165.77832629249647,
+                "y": 54.13854556427279
+            }
+        },
+        {
+            "attributes": {
+                "OBJECTID": 30,
+                "NAME": "Atka",
+                "TRIBE_NAME": "Native Village of Atka",
+                "CFRTRIBE_1": "Atka, Native Village of",
+                "TYPE": "Village",
+                "EPA_ID": 100000359,
+                "BIA_CODE": "TBD",
+                "FFS_ID": 27,
+                "CURRENT_TO": 1679875200000,
+                "SOURCE": "EPA",
+                "STATE": "AK",
+                "REGION": "10",
+                "LEAD_REGION": "10",
+                "CURRENT_USE": "Y",
+                "COMMENT": "",
+                "NAME_HISTORY": ""
+            },
+            "geometry": {
+                "x": -174.1892063971032,
+                "y": 52.190961577147476
+            }
+        },
+        {
+            "attributes": {
+                "OBJECTID": 31,
+                "NAME": "Chuathbaluk",
+                "TRIBE_NAME": "Native Village of Chuathbaluk (Russian Mission, Kuskokwim)",
+                "CFRTRIBE_1": "Chuathbaluk, Native Village of",
+                "TYPE": "Village",
+                "EPA_ID": 100000383,
+                "BIA_CODE": "TBD",
+                "FFS_ID": 841,
+                "CURRENT_TO": 1679875200000,
+                "SOURCE": "EPA",
+                "STATE": "AK",
+                "REGION": "10",
+                "LEAD_REGION": "10",
+                "CURRENT_USE": "Y",
+                "COMMENT": "",
+                "NAME_HISTORY": "1993: Native Village of Chuatbaluk (Russian Mission, Kuskokwim); \n1998: Native Village of Chuathbaluk (Russian Mission, Kuskokwim)"
+            },
+            "geometry": {
+                "x": -159.23508750754377,
+                "y": 61.57257493462083
+            }
+        },
+        {
+            "attributes": {
+                "OBJECTID": 32,
+                "NAME": "Ivanof Bay",
+                "TRIBE_NAME": "Ivanof Bay Tribe",
+                "CFRTRIBE_1": "Ivanoff Bay Village",
+                "TYPE": "Village",
+                "EPA_ID": 100000426,
+                "BIA_CODE": "TBD",
+                "FFS_ID": 222,
+                "CURRENT_TO": 1679875200000,
+                "SOURCE": "EPA",
+                "STATE": "AK",
+                "REGION": "10",
+                "LEAD_REGION": "10",
+                "CURRENT_USE": "Y",
+                "COMMENT": "",
+                "NAME_HISTORY": "2016: Ivanoff Bay Tribe\n2016: Ivanof Bay Tribe"
+            },
+            "geometry": {
+                "x": -159.5066405149869,
+                "y": 55.8995996781332
+            }
+        },
+        {
+            "attributes": {
+                "OBJECTID": 33,
+                "NAME": "Perryville",
+                "TRIBE_NAME": "Native Village of Perryville",
+                "CFRTRIBE_1": "Perryville, Native Village of",
+                "TYPE": "Village",
+                "EPA_ID": 100000502,
+                "BIA_CODE": "TBD",
+                "FFS_ID": 378,
+                "CURRENT_TO": 1679875200000,
+                "SOURCE": "EPA",
+                "STATE": "AK",
+                "REGION": "10",
+                "LEAD_REGION": "10",
+                "CURRENT_USE": "Y",
+                "COMMENT": "",
+                "NAME_HISTORY": ""
+            },
+            "geometry": {
+                "x": -159.16579561456447,
+                "y": 55.911935224300976
+            }
+        },
+        {
+            "attributes": {
+                "OBJECTID": 34,
+                "NAME": "Tetlin",
+                "TRIBE_NAME": "Native Village of Tetlin",
+                "CFRTRIBE_1": "Tetlin, Native Village of",
+                "TYPE": "Village",
+                "EPA_ID": 100000550,
+                "BIA_CODE": "TBD",
+                "FFS_ID": 483,
+                "CURRENT_TO": 1679875200000,
+                "SOURCE": "EPA",
+                "STATE": "AK",
+                "REGION": "10",
+                "LEAD_REGION": "10",
+                "CURRENT_USE": "Y",
+                "COMMENT": "",
+                "NAME_HISTORY": ""
+            },
+            "geometry": {
+                "x": -142.59182659424664,
+                "y": 63.310541138603924
+            }
+        },
+        {
+            "attributes": {
+                "OBJECTID": 35,
+                "NAME": "Tuntutuliak",
+                "TRIBE_NAME": "Native Village of Tuntutuliak",
+                "CFRTRIBE_1": "Tuntutuliak, Native Village of",
+                "TYPE": "Village",
+                "EPA_ID": 100000554,
+                "BIA_CODE": "TBD",
+                "FFS_ID": 499,
+                "CURRENT_TO": 1679875200000,
+                "SOURCE": "EPA",
+                "STATE": "AK",
+                "REGION": "10",
+                "LEAD_REGION": "10",
+                "CURRENT_USE": "Y",
+                "COMMENT": "",
+                "NAME_HISTORY": ""
+            },
+            "geometry": {
+                "x": -162.6694256688795,
+                "y": 60.3396610339972
+            }
+        },
+        {
+            "attributes": {
+                "OBJECTID": 36,
+                "NAME": "Chignik Lagoon",
+                "TRIBE_NAME": "Native Village of Chignik Lagoon",
+                "CFRTRIBE_1": "Chignik Lagoon, Native Village of",
+                "TYPE": "Village",
+                "EPA_ID": 100000377,
+                "BIA_CODE": "TBD",
+                "FFS_ID": 84,
+                "CURRENT_TO": 1679875200000,
+                "SOURCE": "EPA",
+                "STATE": "AK",
+                "REGION": "10",
+                "LEAD_REGION": "10",
+                "CURRENT_USE": "Y",
+                "COMMENT": "",
+                "NAME_HISTORY": ""
+            },
+            "geometry": {
+                "x": -158.52184067592034,
+                "y": 56.35364815932411
+            }
+        },
+        {
+            "attributes": {
+                "OBJECTID": 37,
+                "NAME": "Chignik Lake",
+                "TRIBE_NAME": "Chignik Lake Village",
+                "CFRTRIBE_1": "Chignik Lake Village",
+                "TYPE": "Village",
+                "EPA_ID": 100000378,
+                "BIA_CODE": "TBD",
+                "FFS_ID": 85,
+                "CURRENT_TO": 1679875200000,
+                "SOURCE": "EPA",
+                "STATE": "AK",
+                "REGION": "10",
+                "LEAD_REGION": "10",
+                "CURRENT_USE": "Y",
+                "COMMENT": "",
+                "NAME_HISTORY": ""
+            },
+            "geometry": {
+                "x": -158.7472862603098,
+                "y": 56.26351840675923
+            }
+        },
+        {
+            "attributes": {
+                "OBJECTID": 38,
+                "NAME": "Belkofski",
+                "TRIBE_NAME": "Native Village of Belkofski",
+                "CFRTRIBE_1": "Belkofski, Native Village of",
+                "TYPE": "Village",
+                "EPA_ID": 100000364,
+                "BIA_CODE": "TBD",
+                "FFS_ID": 41,
+                "CURRENT_TO": 1679875200000,
+                "SOURCE": "EPA",
+                "STATE": "AK",
+                "REGION": "10",
+                "LEAD_REGION": "10",
+                "CURRENT_USE": "Y",
+                "COMMENT": "",
+                "NAME_HISTORY": "1993: Native Village of Belkofski"
+            },
+            "geometry": {
+                "x": -162.0341229128948,
+                "y": 55.09049285857978
+            }
+        },
+        {
+            "attributes": {
+                "OBJECTID": 39,
+                "NAME": "Birch Creek",
+                "TRIBE_NAME": "Birch Creek Tribe",
+                "CFRTRIBE_1": "Birch Creek Tribe",
+                "TYPE": "Village",
+                "EPA_ID": 100000366,
+                "BIA_CODE": "TBD",
+                "FFS_ID": 49,
+                "CURRENT_TO": 1679875200000,
+                "SOURCE": "EPA",
+                "STATE": "AK",
+                "REGION": "10",
+                "LEAD_REGION": "10",
+                "CURRENT_USE": "Y",
+                "COMMENT": "",
+                "NAME_HISTORY": "2000: Birch Creek Tribe (formerly listed as Birch Creek Village)"
+            },
+            "geometry": {
+                "x": -145.8242727821364,
+                "y": 66.26869643934825
+            }
+        },
+        {
+            "attributes": {
+                "OBJECTID": 40,
+                "NAME": "Kokhanok",
+                "TRIBE_NAME": "Kokhanok Village",
+                "CFRTRIBE_1": "Kokhanok Village",
+                "TYPE": "Village",
+                "EPA_ID": 100000447,
+                "BIA_CODE": "TBD",
+                "FFS_ID": 264,
+                "CURRENT_TO": 1679875200000,
+                "SOURCE": "EPA",
+                "STATE": "AK",
+                "REGION": "10",
+                "LEAD_REGION": "10",
+                "CURRENT_USE": "Y",
+                "COMMENT": "",
+                "NAME_HISTORY": ""
+            },
+            "geometry": {
+                "x": -154.76104003218668,
+                "y": 59.4425578354456
+            }
+        },
+        {
+            "attributes": {
+                "OBJECTID": 41,
+                "NAME": "Pedro Bay",
+                "TRIBE_NAME": "Pedro Bay Village",
+                "CFRTRIBE_1": "Pedro Bay Village",
+                "TYPE": "Village",
+                "EPA_ID": 100000501,
+                "BIA_CODE": "TBD",
+                "FFS_ID": 376,
+                "CURRENT_TO": 1679875200000,
+                "SOURCE": "EPA",
+                "STATE": "AK",
+                "REGION": "10",
+                "LEAD_REGION": "10",
+                "CURRENT_USE": "Y",
+                "COMMENT": "",
+                "NAME_HISTORY": ""
+            },
+            "geometry": {
+                "x": -154.09807081070207,
+                "y": 59.79136491651582
+            }
+        },
+        {
+            "attributes": {
+                "OBJECTID": 42,
+                "NAME": "Kongiganak",
+                "TRIBE_NAME": "Native Village of Kongiganak",
+                "CFRTRIBE_1": "Kongiganak, Native Village of",
+                "TYPE": "Village",
+                "EPA_ID": 100000448,
+                "BIA_CODE": "TBD",
+                "FFS_ID": 267,
+                "CURRENT_TO": 1679875200000,
+                "SOURCE": "EPA",
+                "STATE": "AK",
+                "REGION": "10",
+                "LEAD_REGION": "10",
+                "CURRENT_USE": "Y",
+                "COMMENT": "",
+                "NAME_HISTORY": "1993: Native Village of Kongiganak"
+            },
+            "geometry": {
+                "x": -162.87734862200764,
+                "y": 59.964736471534934
+            }
+        },
+        {
+            "attributes": {
+                "OBJECTID": 43,
+                "NAME": "Minto",
+                "TRIBE_NAME": "Native Village of Minto",
+                "CFRTRIBE_1": "Minto, Native Village of",
+                "TYPE": "Village",
+                "EPA_ID": 100000468,
+                "BIA_CODE": "TBD",
+                "FFS_ID": 314,
+                "CURRENT_TO": 1679875200000,
+                "SOURCE": "EPA",
+                "STATE": "AK",
+                "REGION": "10",
+                "LEAD_REGION": "10",
+                "CURRENT_USE": "Y",
+                "COMMENT": "",
+                "NAME_HISTORY": ""
+            },
+            "geometry": {
+                "x": -149.3280305773486,
+                "y": 65.15618286059146
+            }
+        },
+        {
+            "attributes": {
+                "OBJECTID": 44,
+                "NAME": "Healy Lake",
+                "TRIBE_NAME": "Healy Lake Village",
+                "CFRTRIBE_1": "Healy Lake Village",
+                "TYPE": "Village",
+                "EPA_ID": 100000415,
+                "BIA_CODE": "TBD",
+                "FFS_ID": 634,
+                "CURRENT_TO": 1679875200000,
+                "SOURCE": "EPA",
+                "STATE": "AK",
+                "REGION": "10",
+                "LEAD_REGION": "10",
+                "CURRENT_USE": "Y",
+                "COMMENT": "",
+                "NAME_HISTORY": ""
+            },
+            "geometry": {
+                "x": -144.75512874673103,
+                "y": 63.9441420237377
+            }
+        },
+        {
+            "attributes": {
+                "OBJECTID": 45,
+                "NAME": "Dot Lake",
+                "TRIBE_NAME": "Village of Dot Lake",
+                "CFRTRIBE_1": "Dot Lake, Village of",
+                "TYPE": "Village",
+                "EPA_ID": 100000393,
+                "BIA_CODE": "TBD",
+                "FFS_ID": 127,
+                "CURRENT_TO": 1679875200000,
+                "SOURCE": "EPA",
+                "STATE": "AK",
+                "REGION": "10",
+                "LEAD_REGION": "10",
+                "CURRENT_USE": "Y",
+                "COMMENT": "",
+                "NAME_HISTORY": ""
+            },
+            "geometry": {
+                "x": -144.04942868638102,
+                "y": 63.66298330315834
+            }
+        },
+        {
+            "attributes": {
+                "OBJECTID": 46,
+                "NAME": "Mentasta Lake",
+                "TRIBE_NAME": "Mentasta Traditional Council",
+                "CFRTRIBE_1": "Mentasta Traditional Council",
+                "TYPE": "Village",
+                "EPA_ID": 100000466,
+                "BIA_CODE": "TBD",
+                "FFS_ID": 309,
+                "CURRENT_TO": 1679875200000,
+                "SOURCE": "EPA",
+                "STATE": "AK",
+                "REGION": "10",
+                "LEAD_REGION": "10",
+                "CURRENT_USE": "Y",
+                "COMMENT": "",
+                "NAME_HISTORY": "1993: Mentasta Lake Village; \n1997: Mentasta Traditional Council (formerly Mentasta Lake Village)"
+            },
+            "geometry": {
+                "x": -143.792352645343,
+                "y": 62.921203983102004
+            }
+        },
+        {
+            "attributes": {
+                "OBJECTID": 47,
+                "NAME": "Portage Creek",
+                "TRIBE_NAME": "Portage Creek Village (aka Ohgsenakale)",
+                "CFRTRIBE_1": "Portage Creek Village (Ohgsenakale)",
+                "TYPE": "Village",
+                "EPA_ID": 100000513,
+                "BIA_CODE": "TBD",
+                "FFS_ID": 402,
+                "CURRENT_TO": 1679875200000,
+                "SOURCE": "EPA",
+                "STATE": "AK",
+                "REGION": "10",
+                "LEAD_REGION": "10",
+                "CURRENT_USE": "Y",
+                "COMMENT": "See notes 1/12/2023 and 1/8/2024",
+                "NAME_HISTORY": "1993: Portage Creek Village (aka Ohgsenakale)\n2023: Portage Creek Village (a.k.a. Ohgsenakale)\n2024: Portage Creek Village (aka Ohgsenakale)"
+            },
+            "geometry": {
+                "x": -157.71429189297928,
+                "y": 58.900571313619
+            }
+        },
+        {
+            "attributes": {
+                "OBJECTID": 48,
+                "NAME": "Ekuk",
+                "TRIBE_NAME": "Native Village of Ekuk",
+                "CFRTRIBE_1": "Ekuk, Native Village of",
+                "TYPE": "Village",
+                "EPA_ID": 100000399,
+                "BIA_CODE": "TBD",
+                "FFS_ID": 136,
+                "CURRENT_TO": 1679875200000,
+                "SOURCE": "EPA",
+                "STATE": "AK",
+                "REGION": "10",
+                "LEAD_REGION": "10",
+                "CURRENT_USE": "Y",
+                "COMMENT": "",
+                "NAME_HISTORY": ""
+            },
+            "geometry": {
+                "x": -158.5405129752565,
+                "y": 58.803957956145666
+            }
+        },
+        {
+            "attributes": {
+                "OBJECTID": 49,
+                "NAME": "Nanwalek",
+                "TRIBE_NAME": "Native Village of Nanwalek (aka English Bay)",
+                "CFRTRIBE_1": "Nanwalek, Native Village of (English Bay)",
+                "TYPE": "Village",
+                "EPA_ID": 100000470,
+                "BIA_CODE": "TBD",
+                "FFS_ID": 142,
+                "CURRENT_TO": 1679875200000,
+                "SOURCE": "EPA",
+                "STATE": "AK",
+                "REGION": "10",
+                "LEAD_REGION": "10",
+                "CURRENT_USE": "Y",
+                "COMMENT": "See notes 1/12/2023 and 1/8/2024",
+                "NAME_HISTORY": "1993: Native Village of Nanwalek (aka English Bay)\n2023: Native Village of Nanwalek (a.k.a. English Bay)\n2024: Native Village of Nanwalek (aka English Bay)"
+            },
+            "geometry": {
+                "x": -151.91568597867632,
+                "y": 59.353954938644165
+            }
+        },
+        {
+            "attributes": {
+                "OBJECTID": 50,
+                "NAME": "Salamatof",
+                "TRIBE_NAME": "Salamatof Tribe",
+                "CFRTRIBE_1": "Salamatof Tribe",
+                "TYPE": "Village",
+                "EPA_ID": 100000523,
+                "BIA_CODE": "TBD",
+                "FFS_ID": 419,
+                "CURRENT_TO": 1679875200000,
+                "SOURCE": "EPA",
+                "STATE": "AK",
+                "REGION": "10",
+                "LEAD_REGION": "10",
+                "CURRENT_USE": "Y",
+                "COMMENT": "",
+                "NAME_HISTORY": "1993: Village of Salamatoff;\n2019: Salamatof Tribe"
+            },
+            "geometry": {
+                "x": -151.3258992154496,
+                "y": 60.587753973043675
+            }
+        },
+        {
+            "attributes": {
+                "OBJECTID": 51,
+                "NAME": "Oscarville",
+                "TRIBE_NAME": "Oscarville Traditional Village",
+                "CFRTRIBE_1": "Oscarville Traditional Village",
+                "TYPE": "Village",
+                "EPA_ID": 100000497,
+                "BIA_CODE": "TBD",
+                "FFS_ID": 369,
+                "CURRENT_TO": 1679875200000,
+                "SOURCE": "EPA",
+                "STATE": "AK",
+                "REGION": "10",
+                "LEAD_REGION": "10",
+                "CURRENT_USE": "Y",
+                "COMMENT": "",
+                "NAME_HISTORY": ""
+            },
+            "geometry": {
+                "x": -161.79009253671293,
+                "y": 60.727269161134586
+            }
+        },
+        {
+            "attributes": {
+                "OBJECTID": 52,
+                "NAME": "Atmautluak",
+                "TRIBE_NAME": "Village of Atmautluak",
+                "CFRTRIBE_1": "Atmautluak, Village of",
+                "TYPE": "Village",
+                "EPA_ID": 100000360,
+                "BIA_CODE": "TBD",
+                "FFS_ID": 29,
+                "CURRENT_TO": 1679875200000,
+                "SOURCE": "EPA",
+                "STATE": "AK",
+                "REGION": "10",
+                "LEAD_REGION": "10",
+                "CURRENT_USE": "Y",
+                "COMMENT": "",
+                "NAME_HISTORY": "1993: Village of Atmautluak"
+            },
+            "geometry": {
+                "x": -162.4764212432106,
+                "y": 60.860685978676344
+            }
+        },
+        {
+            "attributes": {
+                "OBJECTID": 53,
+                "NAME": "Tazlina",
+                "TRIBE_NAME": "Native Village of Tazlina",
+                "CFRTRIBE_1": "Tazlina, Native Village of",
+                "TYPE": "Village",
+                "EPA_ID": 100000547,
+                "BIA_CODE": "TBD",
+                "FFS_ID": 478,
+                "CURRENT_TO": 1679875200000,
+                "SOURCE": "EPA",
+                "STATE": "AK",
+                "REGION": "10",
+                "LEAD_REGION": "10",
+                "CURRENT_USE": "Y",
+                "COMMENT": "",
+                "NAME_HISTORY": ""
+            },
+            "geometry": {
+                "x": -145.4163981090324,
+                "y": 62.030527056930225
+            }
+        },
+        {
+            "attributes": {
+                "OBJECTID": 54,
+                "NAME": "Chenega",
+                "TRIBE_NAME": "Native Village of Chenega (aka Chanega)",
+                "CFRTRIBE_1": "Chanega, Native Village of (Chenega)",
+                "TYPE": "Village",
+                "EPA_ID": 100000370,
+                "BIA_CODE": "TBD",
+                "FFS_ID": 578,
+                "CURRENT_TO": 1679875200000,
+                "SOURCE": "EPA",
+                "STATE": "AK",
+                "REGION": "10",
+                "LEAD_REGION": "10",
+                "CURRENT_USE": "Y",
+                "COMMENT": "See notes 1/12/2023 and 1/8/2024",
+                "NAME_HISTORY": "1993: Native Village of Chanega (aka Chenega); \n2007: Native Village of Chenega (aka Chanega)\n2023: Native Village of Chenega (a.k.a. Chanega)\n2024: Native Village of Chenega (aka Chanega)"
+            },
+            "geometry": {
+                "x": -148.0030356065178,
+                "y": 60.07461677730839
+            }
+        },
+        {
+            "attributes": {
+                "OBJECTID": 55,
+                "NAME": "Nelson Lagoon",
+                "TRIBE_NAME": "Native Village of Nelson Lagoon",
+                "CFRTRIBE_1": "Nelson Lagoon, Native Village of",
+                "TYPE": "Village",
+                "EPA_ID": 100000474,
+                "BIA_CODE": "TBD",
+                "FFS_ID": 336,
+                "CURRENT_TO": 1679875200000,
+                "SOURCE": "EPA",
+                "STATE": "AK",
+                "REGION": "10",
+                "LEAD_REGION": "10",
+                "CURRENT_USE": "Y",
+                "COMMENT": "",
+                "NAME_HISTORY": ""
+            },
+            "geometry": {
+                "x": -161.20062764031383,
+                "y": 56.001225105612576
+            }
+        },
+        {
+            "attributes": {
+                "OBJECTID": 56,
+                "NAME": "Alatna",
+                "TRIBE_NAME": "Alatna Village",
+                "CFRTRIBE_1": "Alatna Village",
+                "TYPE": "Village",
+                "EPA_ID": 100000347,
+                "BIA_CODE": "TBD",
+                "FFS_ID": 10,
+                "CURRENT_TO": 1679875200000,
+                "SOURCE": "EPA",
+                "STATE": "AK",
+                "REGION": "10",
+                "LEAD_REGION": "10",
+                "CURRENT_USE": "Y",
+                "COMMENT": "",
+                "NAME_HISTORY": ""
+            },
+            "geometry": {
+                "x": -152.75985717159526,
+                "y": 66.59680144840075
+            }
+        },
+        {
+            "attributes": {
+                "OBJECTID": 57,
+                "NAME": "King Island",
+                "TRIBE_NAME": "King Island Native Community",
+                "CFRTRIBE_1": "King Island Native Community",
+                "TYPE": "Village",
+                "EPA_ID": 100000439,
+                "BIA_CODE": "TBD",
+                "FFS_ID": 253,
+                "CURRENT_TO": 1679875200000,
+                "SOURCE": "EPA",
+                "STATE": "AK",
+                "REGION": "10",
+                "LEAD_REGION": "10",
+                "CURRENT_USE": "Y",
+                "COMMENT": "",
+                "NAME_HISTORY": ""
+            },
+            "geometry": {
+                "x": -168.06492053912694,
+                "y": 64.96936934218468
+            }
+        },
+        {
+            "attributes": {
+                "OBJECTID": 58,
+                "NAME": "Karluk",
+                "TRIBE_NAME": "Native Village of Karluk",
+                "CFRTRIBE_1": "Karluk, Native Village of",
+                "TYPE": "Village",
+                "EPA_ID": 100000433,
+                "BIA_CODE": "TBD",
+                "FFS_ID": 237,
+                "CURRENT_TO": 1679875200000,
+                "SOURCE": "EPA",
+                "STATE": "AK",
+                "REGION": "10",
+                "LEAD_REGION": "10",
+                "CURRENT_USE": "Y",
+                "COMMENT": "",
+                "NAME_HISTORY": ""
+            },
+            "geometry": {
+                "x": -154.4554445785556,
+                "y": 57.571930195131785
+            }
+        },
+        {
+            "attributes": {
+                "OBJECTID": 59,
+                "NAME": "Chalkyitsik",
+                "TRIBE_NAME": "Chalkyitsik Village",
+                "CFRTRIBE_1": "Chalkyitsik Village",
+                "TYPE": "Village",
+                "EPA_ID": 100000371,
+                "BIA_CODE": "TBD",
+                "FFS_ID": 72,
+                "CURRENT_TO": 1679875200000,
+                "SOURCE": "EPA",
+                "STATE": "AK",
+                "REGION": "10",
+                "LEAD_REGION": "10",
+                "CURRENT_USE": "Y",
+                "COMMENT": "",
+                "NAME_HISTORY": ""
+            },
+            "geometry": {
+                "x": -143.7221675719171,
+                "y": 66.65441862804266
+            }
+        },
+        {
+            "attributes": {
+                "OBJECTID": 60,
+                "NAME": "Cantwell",
+                "TRIBE_NAME": "Native Village of Cantwell",
+                "CFRTRIBE_1": "Cantwell, Native Village of",
+                "TYPE": "Village",
+                "EPA_ID": 100000369,
+                "BIA_CODE": "TBD",
+                "FFS_ID": 65,
+                "CURRENT_TO": 1679875200000,
+                "SOURCE": "EPA",
+                "STATE": "AK",
+                "REGION": "10",
+                "LEAD_REGION": "10",
+                "CURRENT_USE": "Y",
+                "COMMENT": "",
+                "NAME_HISTORY": ""
+            },
+            "geometry": {
+                "x": -148.95080567290285,
+                "y": 63.39166264333133
+            }
+        },
+        {
+            "attributes": {
+                "OBJECTID": 61,
+                "NAME": "Knik",
+                "TRIBE_NAME": "Knik Tribe",
+                "CFRTRIBE_1": "Knik Tribe",
+                "TYPE": "Village",
+                "EPA_ID": 100000445,
+                "BIA_CODE": "TBD",
+                "FFS_ID": 260,
+                "CURRENT_TO": 1679875200000,
+                "SOURCE": "EPA",
+                "STATE": "AK",
+                "REGION": "10",
+                "LEAD_REGION": "10",
+                "CURRENT_USE": "Y",
+                "COMMENT": "",
+                "NAME_HISTORY": "1995: Knik Tribe"
+            },
+            "geometry": {
+                "x": -149.72888151277408,
+                "y": 61.45776403138203
+            }
+        },
+        {
+            "attributes": {
+                "OBJECTID": 62,
+                "NAME": "Chickaloon",
+                "TRIBE_NAME": "Chickaloon Native Village",
+                "CFRTRIBE_1": "Chickaloon Native Village",
+                "TYPE": "Village",
+                "EPA_ID": 100000375,
+                "BIA_CODE": "TBD",
+                "FFS_ID": 81,
+                "CURRENT_TO": 1679875200000,
+                "SOURCE": "EPA",
+                "STATE": "AK",
+                "REGION": "10",
+                "LEAD_REGION": "10",
+                "CURRENT_USE": "Y",
+                "COMMENT": "",
+                "NAME_HISTORY": "1993: Chickaloon Native Village"
+            },
+            "geometry": {
+                "x": -148.46276906055118,
+                "y": 61.796660631663656
+            }
+        },
+        {
+            "attributes": {
+                "OBJECTID": 63,
+                "NAME": "Eklutna",
+                "TRIBE_NAME": "Eklutna Native Village",
+                "CFRTRIBE_1": "Eklutna Native Village",
+                "TYPE": "Village",
+                "EPA_ID": 100000398,
+                "BIA_CODE": "TBD",
+                "FFS_ID": 135,
+                "CURRENT_TO": 1679875200000,
+                "SOURCE": "EPA",
+                "STATE": "AK",
+                "REGION": "10",
+                "LEAD_REGION": "10",
+                "CURRENT_USE": "Y",
+                "COMMENT": "",
+                "NAME_HISTORY": ""
+            },
+            "geometry": {
+                "x": -149.36218265942466,
+                "y": 61.45803862401934
+            }
+        },
+        {
+            "attributes": {
+                "OBJECTID": 64,
+                "NAME": "Chitina",
+                "TRIBE_NAME": "Native Village of Chitina",
+                "CFRTRIBE_1": "Chitina, Native Village of",
+                "TYPE": "Village",
+                "EPA_ID": 100000382,
+                "BIA_CODE": "TBD",
+                "FFS_ID": 88,
+                "CURRENT_TO": 1679875200000,
+                "SOURCE": "EPA",
+                "STATE": "AK",
+                "REGION": "10",
+                "LEAD_REGION": "10",
+                "CURRENT_USE": "Y",
+                "COMMENT": "",
+                "NAME_HISTORY": ""
+            },
+            "geometry": {
+                "x": -144.43688996177832,
+                "y": 61.51580768457052
+            }
+        },
+        {
+            "attributes": {
+                "OBJECTID": 65,
+                "NAME": "Gulkana",
+                "TRIBE_NAME": "Gulkana Village Council",
+                "CFRTRIBE_1": "Gulkana Village Council",
+                "TYPE": "Village",
+                "EPA_ID": 100000413,
+                "BIA_CODE": "TBD",
+                "FFS_ID": 185,
+                "CURRENT_TO": 1679875200000,
+                "SOURCE": "EPA",
+                "STATE": "AK",
+                "REGION": "10",
+                "LEAD_REGION": "10",
+                "CURRENT_USE": "Y",
+                "COMMENT": "",
+                "NAME_HISTORY": "2018: Gulkana Village Council"
+            },
+            "geometry": {
+                "x": -145.38220177026756,
+                "y": 62.27136290484813
+            }
+        },
+        {
+            "attributes": {
+                "OBJECTID": 66,
+                "NAME": "Gakona",
+                "TRIBE_NAME": "Native Village of Gakona",
+                "CFRTRIBE_1": "Gakona, Native Village of",
+                "TYPE": "Village",
+                "EPA_ID": 100000407,
+                "BIA_CODE": "TBD",
+                "FFS_ID": 165,
+                "CURRENT_TO": 1679875200000,
+                "SOURCE": "EPA",
+                "STATE": "AK",
+                "REGION": "10",
+                "LEAD_REGION": "10",
+                "CURRENT_USE": "Y",
+                "COMMENT": "",
+                "NAME_HISTORY": ""
+            },
+            "geometry": {
+                "x": -145.30187990343995,
+                "y": 62.30194025347015
+            }
+        },
+        {
+            "attributes": {
+                "OBJECTID": 67,
+                "NAME": "Chistochina",
+                "TRIBE_NAME": "Cheesh-Na Tribe",
+                "CFRTRIBE_1": "Cheesh-Na Tribe (Chistochina)",
+                "TYPE": "Village",
+                "EPA_ID": 100000372,
+                "BIA_CODE": "TBD",
+                "FFS_ID": 87,
+                "CURRENT_TO": 1679875200000,
+                "SOURCE": "EPA",
+                "STATE": "AK",
+                "REGION": "10",
+                "LEAD_REGION": "10",
+                "CURRENT_USE": "Y",
+                "COMMENT": "",
+                "NAME_HISTORY": "2002: Cheesh-Na Tribe (formerly the Native Village of Chistochina)"
+            },
+            "geometry": {
+                "x": -144.6646731040032,
+                "y": 62.5649718366526
+            }
+        },
+        {
+            "attributes": {
+                "OBJECTID": 68,
+                "NAME": "Yakutat",
+                "TRIBE_NAME": "Yakutat Tlingit Tribe",
+                "CFRTRIBE_1": "Yakutat Tlingit Tribe",
+                "TYPE": "Village",
+                "EPA_ID": 100000568,
+                "BIA_CODE": "TBD",
+                "FFS_ID": 533,
+                "CURRENT_TO": 1679875200000,
+                "SOURCE": "EPA",
+                "STATE": "AK",
+                "REGION": "10",
+                "LEAD_REGION": "10",
+                "CURRENT_USE": "Y",
+                "COMMENT": "",
+                "NAME_HISTORY": "1993: Yakutat Tlingit Tribe"
+            },
+            "geometry": {
+                "x": -139.7271726010863,
+                "y": 59.546936230134804
+            }
+        },
+        {
+            "attributes": {
+                "OBJECTID": 69,
+                "NAME": "Skagway",
+                "TRIBE_NAME": "Skagway Village",
+                "CFRTRIBE_1": "Skagway Village",
+                "TYPE": "Village",
+                "EPA_ID": 100000534,
+                "BIA_CODE": "TBD",
+                "FFS_ID": 443,
+                "CURRENT_TO": 1679875200000,
+                "SOURCE": "EPA",
+                "STATE": "AK",
+                "REGION": "10",
+                "LEAD_REGION": "10",
+                "CURRENT_USE": "Y",
+                "COMMENT": "",
+                "NAME_HISTORY": "1993: Skagway Village"
+            },
+            "geometry": {
+                "x": -135.31384429692213,
+                "y": 59.45831321665662
+            }
+        },
+        {
+            "attributes": {
+                "OBJECTID": 70,
+                "NAME": "Hoonah",
+                "TRIBE_NAME": "Hoonah Indian Association",
+                "CFRTRIBE_1": "Hoonah Indian Association",
+                "TYPE": "Village",
+                "EPA_ID": 100000417,
+                "BIA_CODE": "TBD",
+                "FFS_ID": 198,
+                "CURRENT_TO": 1679875200000,
+                "SOURCE": "EPA",
+                "STATE": "AK",
+                "REGION": "10",
+                "LEAD_REGION": "10",
+                "CURRENT_USE": "Y",
+                "COMMENT": "",
+                "NAME_HISTORY": ""
+            },
+            "geometry": {
+                "x": -135.36853349426673,
+                "y": 58.10210923355464
+            }
+        },
+        {
+            "attributes": {
+                "OBJECTID": 71,
+                "NAME": "Angoon",
+                "TRIBE_NAME": "Angoon Community Association",
+                "CFRTRIBE_1": "Angoon Community Association",
+                "TYPE": "Village",
+                "EPA_ID": 100000354,
+                "BIA_CODE": "TBD",
+                "FFS_ID": 20,
+                "CURRENT_TO": 1679875200000,
+                "SOURCE": "EPA",
+                "STATE": "AK",
+                "REGION": "10",
+                "LEAD_REGION": "10",
+                "CURRENT_USE": "Y",
+                "COMMENT": "",
+                "NAME_HISTORY": ""
+            },
+            "geometry": {
+                "x": -134.4805330919332,
+                "y": 57.455155904244634
+            }
+        },
+        {
+            "attributes": {
+                "OBJECTID": 72,
+                "NAME": "Kake",
+                "TRIBE_NAME": "Organized Village of Kake",
+                "CFRTRIBE_1": "Kake, Organized Village of",
+                "TYPE": "Village",
+                "EPA_ID": 100000428,
+                "BIA_CODE": "TBD",
+                "FFS_ID": 229,
+                "CURRENT_TO": 1679875200000,
+                "SOURCE": "EPA",
+                "STATE": "AK",
+                "REGION": "10",
+                "LEAD_REGION": "10",
+                "CURRENT_USE": "Y",
+                "COMMENT": "",
+                "NAME_HISTORY": ""
+            },
+            "geometry": {
+                "x": -133.89682055924362,
+                "y": 56.98483303158321
+            }
+        },
+        {
+            "attributes": {
+                "OBJECTID": 73,
+                "NAME": "Wrangell",
+                "TRIBE_NAME": "Wrangell Cooperative Association",
+                "CFRTRIBE_1": "Wrangell Cooperative Association",
+                "TYPE": "Village",
+                "EPA_ID": 100000567,
+                "BIA_CODE": "TBD",
+                "FFS_ID": 532,
+                "CURRENT_TO": 1679875200000,
+                "SOURCE": "EPA",
+                "STATE": "AK",
+                "REGION": "10",
+                "LEAD_REGION": "10",
+                "CURRENT_USE": "Y",
+                "COMMENT": "",
+                "NAME_HISTORY": ""
+            },
+            "geometry": {
+                "x": -132.3459605713136,
+                "y": 56.4580436531885
+            }
+        },
+        {
+            "attributes": {
+                "OBJECTID": 74,
+                "NAME": "Petersburg",
+                "TRIBE_NAME": "Petersburg Indian Association",
+                "CFRTRIBE_1": "Petersburg Indian Association",
+                "TYPE": "Village",
+                "EPA_ID": 100000503,
+                "BIA_CODE": "TBD",
+                "FFS_ID": 380,
+                "CURRENT_TO": 1679875200000,
+                "SOURCE": "EPA",
+                "STATE": "AK",
+                "REGION": "10",
+                "LEAD_REGION": "10",
+                "CURRENT_USE": "Y",
+                "COMMENT": "",
+                "NAME_HISTORY": ""
+            },
+            "geometry": {
+                "x": -132.91842084087708,
+                "y": 56.7882377791189
+            }
+        },
+        {
+            "attributes": {
+                "OBJECTID": 75,
+                "NAME": "Craig",
+                "TRIBE_NAME": "Craig Tribal Association",
+                "CFRTRIBE_1": "Craig Community Association",
+                "TYPE": "Village",
+                "EPA_ID": 100000388,
+                "BIA_CODE": "TBD",
+                "FFS_ID": 108,
+                "CURRENT_TO": 1679875200000,
+                "SOURCE": "EPA",
+                "STATE": "AK",
+                "REGION": "10",
+                "LEAD_REGION": "10",
+                "CURRENT_USE": "Y",
+                "COMMENT": "",
+                "NAME_HISTORY": "2012: Craig Tribal Association (previously listed as the Craig Community Association)"
+            },
+            "geometry": {
+                "x": -133.0091259303963,
+                "y": 55.42628746731043
+            }
+        },
+        {
+            "attributes": {
+                "OBJECTID": 76,
+                "NAME": "Klawock",
+                "TRIBE_NAME": "Klawock Cooperative Association",
+                "CFRTRIBE_1": "Klawock Cooperative Association",
+                "TYPE": "Village",
+                "EPA_ID": 100000443,
+                "BIA_CODE": "TBD",
+                "FFS_ID": 257,
+                "CURRENT_TO": 1679875200000,
+                "SOURCE": "EPA",
+                "STATE": "AK",
+                "REGION": "10",
+                "LEAD_REGION": "10",
+                "CURRENT_USE": "Y",
+                "COMMENT": "",
+                "NAME_HISTORY": ""
+            },
+            "geometry": {
+                "x": -133.04526855763427,
+                "y": 55.559112854556446
+            }
+        },
+        {
+            "attributes": {
+                "OBJECTID": 77,
+                "NAME": "Kasaan",
+                "TRIBE_NAME": "Organized Village of Kasaan",
+                "CFRTRIBE_1": "Kasaan, Organized Village of",
+                "TYPE": "Village",
+                "EPA_ID": 100000434,
+                "BIA_CODE": "TBD",
+                "FFS_ID": 238,
+                "CURRENT_TO": 1679875200000,
+                "SOURCE": "EPA",
+                "STATE": "AK",
+                "REGION": "10",
+                "LEAD_REGION": "10",
+                "CURRENT_USE": "Y",
+                "COMMENT": "",
+                "NAME_HISTORY": "1988: Organized Village of Kasaan"
+            },
+            "geometry": {
+                "x": -132.1872088111044,
+                "y": 55.4754465902233
+            }
+        },
+        {
+            "attributes": {
+                "OBJECTID": 78,
+                "NAME": "Hydaburg",
+                "TRIBE_NAME": "Hydaburg Cooperative Association",
+                "CFRTRIBE_1": "Hydaburg Cooperative Association",
+                "TYPE": "Village",
+                "EPA_ID": 100000421,
+                "BIA_CODE": "TBD",
+                "FFS_ID": 211,
+                "CURRENT_TO": 1679875200000,
+                "SOURCE": "EPA",
+                "STATE": "AK",
+                "REGION": "10",
+                "LEAD_REGION": "10",
+                "CURRENT_USE": "Y",
+                "COMMENT": "",
+                "NAME_HISTORY": ""
+            },
+            "geometry": {
+                "x": -132.73798933816133,
+                "y": 55.18313719573527
+            }
+        },
+        {
+            "attributes": {
+                "OBJECTID": 79,
+                "NAME": "Ketchikan",
+                "TRIBE_NAME": "Ketchikan Indian Community",
+                "CFRTRIBE_1": "Ketchikan Indian Community",
+                "TYPE": "Village",
+                "EPA_ID": 100000437,
+                "BIA_CODE": "TBD",
+                "FFS_ID": 248,
+                "CURRENT_TO": 1679875200000,
+                "SOURCE": "EPA",
+                "STATE": "AK",
+                "REGION": "10",
+                "LEAD_REGION": "10",
+                "CURRENT_USE": "Y",
+                "COMMENT": "",
+                "NAME_HISTORY": "2021: Ketchikan Indian Community"
+            },
+            "geometry": {
+                "x": -131.64599678133172,
+                "y": 55.34219372359689
+            }
+        },
+        {
+            "attributes": {
+                "OBJECTID": 80,
+                "NAME": "Saxman",
+                "TRIBE_NAME": "Organized Village of Saxman",
+                "CFRTRIBE_1": "Saxman, Organized Village of",
+                "TYPE": "Village",
+                "EPA_ID": 100000525,
+                "BIA_CODE": "TBD",
+                "FFS_ID": 427,
+                "CURRENT_TO": 1679875200000,
+                "SOURCE": "EPA",
+                "STATE": "AK",
+                "REGION": "10",
+                "LEAD_REGION": "10",
+                "CURRENT_USE": "Y",
+                "COMMENT": "",
+                "NAME_HISTORY": ""
+            },
+            "geometry": {
+                "x": -131.59582578957955,
+                "y": 55.318329309998006
+            }
+        },
+        {
+            "attributes": {
+                "OBJECTID": 81,
+                "NAME": "Sitka",
+                "TRIBE_NAME": "Sitka Tribe of Alaska",
+                "CFRTRIBE_1": "Sitka Tribe of Alaska",
+                "TYPE": "Village",
+                "EPA_ID": 100000533,
+                "BIA_CODE": "TBD",
+                "FFS_ID": 442,
+                "CURRENT_TO": 1679875200000,
+                "SOURCE": "EPA",
+                "STATE": "AK",
+                "REGION": "10",
+                "LEAD_REGION": "10",
+                "CURRENT_USE": "Y",
+                "COMMENT": "",
+                "NAME_HISTORY": "1993: Sitka Tribe of Alaska"
+            },
+            "geometry": {
+                "x": -135.2976694830014,
+                "y": 57.06540132770067
+            }
+        },
+        {
+            "attributes": {
+                "OBJECTID": 82,
+                "NAME": "Cordova",
+                "TRIBE_NAME": "Native Village of Eyak (Cordova)",
+                "CFRTRIBE_1": "Eyak, Native Village of (Cordova)",
+                "TYPE": "Village",
+                "EPA_ID": 100000404,
+                "BIA_CODE": "TBD",
+                "FFS_ID": 148,
+                "CURRENT_TO": 1679875200000,
+                "SOURCE": "EPA",
+                "STATE": "AK",
+                "REGION": "10",
+                "LEAD_REGION": "10",
+                "CURRENT_USE": "Y",
+                "COMMENT": "",
+                "NAME_HISTORY": "1993: Native Village of Eyak (Cordova)"
+            },
+            "geometry": {
+                "x": -145.71080667873667,
+                "y": 60.56347012673507
+            }
+        },
+        {
+            "attributes": {
+                "OBJECTID": 83,
+                "NAME": "Tatitlek",
+                "TRIBE_NAME": "Native Village of Tatitlek",
+                "CFRTRIBE_1": "Tatitlek, Native Village of",
+                "TYPE": "Village",
+                "EPA_ID": 100000546,
+                "BIA_CODE": "TBD",
+                "FFS_ID": 477,
+                "CURRENT_TO": 1679875200000,
+                "SOURCE": "EPA",
+                "STATE": "AK",
+                "REGION": "10",
+                "LEAD_REGION": "10",
+                "CURRENT_USE": "Y",
+                "COMMENT": "",
+                "NAME_HISTORY": ""
+            },
+            "geometry": {
+                "x": -146.67858881512774,
+                "y": 60.86471534902435
+            }
+        },
+        {
+            "attributes": {
+                "OBJECTID": 84,
+                "NAME": "Seldovia",
+                "TRIBE_NAME": "Seldovia Village Tribe",
+                "CFRTRIBE_1": "Seldovia Village Tribe",
+                "TYPE": "Village",
+                "EPA_ID": 100000528,
+                "BIA_CODE": "TBD",
+                "FFS_ID": 431,
+                "CURRENT_TO": 1679875200000,
+                "SOURCE": "EPA",
+                "STATE": "AK",
+                "REGION": "10",
+                "LEAD_REGION": "10",
+                "CURRENT_USE": "Y",
+                "COMMENT": "",
+                "NAME_HISTORY": "1993: Seldovia Village Tribe"
+            },
+            "geometry": {
+                "x": -151.71130356065177,
+                "y": 59.43804968819154
+            }
+        },
+        {
+            "attributes": {
+                "OBJECTID": 85,
+                "NAME": "Port Graham",
+                "TRIBE_NAME": "Native Village of Port Graham",
+                "CFRTRIBE_1": "Port Graham, Native Village of",
+                "TYPE": "Village",
+                "EPA_ID": 100000510,
+                "BIA_CODE": "TBD",
+                "FFS_ID": 396,
+                "CURRENT_TO": 1679875200000,
+                "SOURCE": "EPA",
+                "STATE": "AK",
+                "REGION": "10",
+                "LEAD_REGION": "10",
+                "CURRENT_USE": "Y",
+                "COMMENT": "",
+                "NAME_HISTORY": "1993: Native Village of Port Graham"
+            },
+            "geometry": {
+                "x": -151.82971233152284,
+                "y": 59.35137899818952
+            }
+        },
+        {
+            "attributes": {
+                "OBJECTID": 86,
+                "NAME": "Ninilchik",
+                "TRIBE_NAME": "Ninilchik Village",
+                "CFRTRIBE_1": "Ninilchik Village",
+                "TYPE": "Village",
+                "EPA_ID": 100000483,
+                "BIA_CODE": "TBD",
+                "FFS_ID": 348,
+                "CURRENT_TO": 1679875200000,
+                "SOURCE": "EPA",
+                "STATE": "AK",
+                "REGION": "10",
+                "LEAD_REGION": "10",
+                "CURRENT_USE": "Y",
+                "COMMENT": "",
+                "NAME_HISTORY": "1993: Ninilchik Village"
+            },
+            "geometry": {
+                "x": -151.66882317441159,
+                "y": 60.05136089318046
+            }
+        },
+        {
+            "attributes": {
+                "OBJECTID": 87,
+                "NAME": "Tyonek",
+                "TRIBE_NAME": "Native Village of Tyonek",
+                "CFRTRIBE_1": "Tyonek, Native Village of",
+                "TYPE": "Village",
+                "EPA_ID": 100000557,
+                "BIA_CODE": "TBD",
+                "FFS_ID": 505,
+                "CURRENT_TO": 1679875200000,
+                "SOURCE": "EPA",
+                "STATE": "AK",
+                "REGION": "10",
+                "LEAD_REGION": "10",
+                "CURRENT_USE": "Y",
+                "COMMENT": "",
+                "NAME_HISTORY": ""
+            },
+            "geometry": {
+                "x": -151.13684067592033,
+                "y": 61.068053711526886
+            }
+        },
+        {
+            "attributes": {
+                "OBJECTID": 88,
+                "NAME": "Tanacross",
+                "TRIBE_NAME": "Native Village of Tanacross",
+                "CFRTRIBE_1": "Tanacross, Native Village of",
+                "TYPE": "Village",
+                "EPA_ID": 100000543,
+                "BIA_CODE": "TBD",
+                "FFS_ID": 474,
+                "CURRENT_TO": 1679875200000,
+                "SOURCE": "EPA",
+                "STATE": "AK",
+                "REGION": "10",
+                "LEAD_REGION": "10",
+                "CURRENT_USE": "Y",
+                "COMMENT": "",
+                "NAME_HISTORY": ""
+            },
+            "geometry": {
+                "x": -143.3463126131563,
+                "y": 63.38525447596058
+            }
+        },
+        {
+            "attributes": {
+                "OBJECTID": 89,
+                "NAME": "Northway",
+                "TRIBE_NAME": "Northway Village",
+                "CFRTRIBE_1": "Northway Village",
+                "TYPE": "Village",
+                "EPA_ID": 100000488,
+                "BIA_CODE": "TBD",
+                "FFS_ID": 358,
+                "CURRENT_TO": 1679875200000,
+                "SOURCE": "EPA",
+                "STATE": "AK",
+                "REGION": "10",
+                "LEAD_REGION": "10",
+                "CURRENT_USE": "Y",
+                "COMMENT": "",
+                "NAME_HISTORY": ""
+            },
+            "geometry": {
+                "x": -141.93713337356667,
+                "y": 62.96163850331928
+            }
+        },
+        {
+            "attributes": {
+                "OBJECTID": 90,
+                "NAME": "Eagle",
+                "TRIBE_NAME": "Native Village of Eagle",
+                "CFRTRIBE_1": "Eagle, Native Village of",
+                "TYPE": "Village",
+                "EPA_ID": 100000395,
+                "BIA_CODE": "TBD",
+                "FFS_ID": 130,
+                "CURRENT_TO": 1679875200000,
+                "SOURCE": "EPA",
+                "STATE": "AK",
+                "REGION": "10",
+                "LEAD_REGION": "10",
+                "CURRENT_USE": "Y",
+                "COMMENT": "",
+                "NAME_HISTORY": "1993: Native Village of Eagle"
+            },
+            "geometry": {
+                "x": -141.199950714142,
+                "y": 64.78802454234562
+            }
+        },
+        {
+            "attributes": {
+                "OBJECTID": 91,
+                "NAME": "Nenana",
+                "TRIBE_NAME": "Nenana Native Association",
+                "CFRTRIBE_1": "Nenana Native Association",
+                "TYPE": "Village",
+                "EPA_ID": 100000475,
+                "BIA_CODE": "TBD",
+                "FFS_ID": 337,
+                "CURRENT_TO": 1679875200000,
+                "SOURCE": "EPA",
+                "STATE": "AK",
+                "REGION": "10",
+                "LEAD_REGION": "10",
+                "CURRENT_USE": "Y",
+                "COMMENT": "",
+                "NAME_HISTORY": ""
+            },
+            "geometry": {
+                "x": -149.09301750150874,
+                "y": 64.56384228525448
+            }
+        },
+        {
+            "attributes": {
+                "OBJECTID": 92,
+                "NAME": "Tanana",
+                "TRIBE_NAME": "Native Village of Tanana",
+                "CFRTRIBE_1": "Tanana, Native Village of",
+                "TYPE": "Village",
+                "EPA_ID": 100000544,
+                "BIA_CODE": "TBD",
+                "FFS_ID": 475,
+                "CURRENT_TO": 1679875200000,
+                "SOURCE": "EPA",
+                "STATE": "AK",
+                "REGION": "10",
+                "LEAD_REGION": "10",
+                "CURRENT_USE": "Y",
+                "COMMENT": "",
+                "NAME_HISTORY": ""
+            },
+            "geometry": {
+                "x": -152.078857372762,
+                "y": 65.1719362301348
+            }
+        },
+        {
+            "attributes": {
+                "OBJECTID": 93,
+                "NAME": "Manley Hot Springs",
+                "TRIBE_NAME": "Manley Hot Springs Village",
+                "CFRTRIBE_1": "Manley Hot Springs Village",
+                "TYPE": "Village",
+                "EPA_ID": 100000460,
+                "BIA_CODE": "TBD",
+                "FFS_ID": 294,
+                "CURRENT_TO": 1679875200000,
+                "SOURCE": "EPA",
+                "STATE": "AK",
+                "REGION": "10",
+                "LEAD_REGION": "10",
+                "CURRENT_USE": "Y",
+                "COMMENT": "",
+                "NAME_HISTORY": ""
+            },
+            "geometry": {
+                "x": -150.63378897606114,
+                "y": 65.00109837054922
+            }
+        },
+        {
+            "attributes": {
+                "OBJECTID": 94,
+                "NAME": "Rampart",
+                "TRIBE_NAME": "Rampart Village",
+                "CFRTRIBE_1": "Rampart Village",
+                "TYPE": "Village",
+                "EPA_ID": 100000517,
+                "BIA_CODE": "TBD",
+                "FFS_ID": 410,
+                "CURRENT_TO": 1679875200000,
+                "SOURCE": "EPA",
+                "STATE": "AK",
+                "REGION": "10",
+                "LEAD_REGION": "10",
+                "CURRENT_USE": "Y",
+                "COMMENT": "",
+                "NAME_HISTORY": ""
+            },
+            "geometry": {
+                "x": -150.16992154496077,
+                "y": 65.50494367330518
+            }
+        },
+        {
+            "attributes": {
+                "OBJECTID": 95,
+                "NAME": "Circle",
+                "TRIBE_NAME": "Circle Native Community",
+                "CFRTRIBE_1": "Circle Native Community",
+                "TYPE": "Village",
+                "EPA_ID": 100000385,
+                "BIA_CODE": "TBD",
+                "FFS_ID": 93,
+                "CURRENT_TO": 1679875200000,
+                "SOURCE": "EPA",
+                "STATE": "AK",
+                "REGION": "10",
+                "LEAD_REGION": "10",
+                "CURRENT_USE": "Y",
+                "COMMENT": "",
+                "NAME_HISTORY": "1993: Circle Native Community"
+            },
+            "geometry": {
+                "x": -144.06054717360692,
+                "y": 65.82550090525046
+            }
+        },
+        {
+            "attributes": {
+                "OBJECTID": 96,
+                "NAME": "Fort Yukon",
+                "TRIBE_NAME": "Native Village of Fort Yukon",
+                "CFRTRIBE_1": "Fort Yukon, Native Village of",
+                "TYPE": "Village",
+                "EPA_ID": 100000406,
+                "BIA_CODE": "TBD",
+                "FFS_ID": 162,
+                "CURRENT_TO": 1679875200000,
+                "SOURCE": "EPA",
+                "STATE": "AK",
+                "REGION": "10",
+                "LEAD_REGION": "10",
+                "CURRENT_USE": "Y",
+                "COMMENT": "",
+                "NAME_HISTORY": ""
+            },
+            "geometry": {
+                "x": -145.2738040635687,
+                "y": 66.56469724401532
+            }
+        },
+        {
+            "attributes": {
+                "OBJECTID": 97,
+                "NAME": "Venetie",
+                "TRIBE_NAME": "Native Village of Venetie Tribal Government (Arctic Village and Village of Venetie)",
+                "CFRTRIBE_1": "Native Village of Venetie Tribal Government (Arctic Village and Village of Venetie)",
+                "TYPE": "Village",
+                "EPA_ID": 100000563,
+                "BIA_CODE": "TBD",
+                "FFS_ID": 518,
+                "CURRENT_TO": 1679875200000,
+                "SOURCE": "EPA",
+                "STATE": "AK",
+                "REGION": "10",
+                "LEAD_REGION": "10",
+                "CURRENT_USE": "Y",
+                "COMMENT": "See Notes (5/13/2013 and 1/28/2022)",
+                "NAME_HISTORY": ""
+            },
+            "geometry": {
+                "x": -146.41857875678937,
+                "y": 67.01385536109436
+            }
+        },
+        {
+            "attributes": {
+                "OBJECTID": 98,
+                "NAME": "Beaver",
+                "TRIBE_NAME": "Beaver Village",
+                "CFRTRIBE_1": "Beaver Village",
+                "TYPE": "Village",
+                "EPA_ID": 100000363,
+                "BIA_CODE": "TBD",
+                "FFS_ID": 38,
+                "CURRENT_TO": 1679875200000,
+                "SOURCE": "EPA",
+                "STATE": "AK",
+                "REGION": "10",
+                "LEAD_REGION": "10",
+                "CURRENT_USE": "Y",
+                "COMMENT": "",
+                "NAME_HISTORY": ""
+            },
+            "geometry": {
+                "x": -147.39636189901427,
+                "y": 66.35943572721789
+            }
+        },
+        {
+            "attributes": {
+                "OBJECTID": 99,
+                "NAME": "Stevens Village",
+                "TRIBE_NAME": "Native Village of Stevens",
+                "CFRTRIBE_1": "Stevens, Native Village of",
+                "TYPE": "Village",
+                "EPA_ID": 100000539,
+                "BIA_CODE": "TBD",
+                "FFS_ID": 463,
+                "CURRENT_TO": 1679875200000,
+                "SOURCE": "EPA",
+                "STATE": "AK",
+                "REGION": "10",
+                "LEAD_REGION": "10",
+                "CURRENT_USE": "Y",
+                "COMMENT": "",
+                "NAME_HISTORY": ""
+            },
+            "geometry": {
+                "x": -149.09081975457653,
+                "y": 66.00634781734058
+            }
+        },
+        {
+            "attributes": {
+                "OBJECTID": 100,
+                "NAME": "Anaktuvuk Pass",
+                "TRIBE_NAME": "Village of Anaktuvuk Pass",
+                "CFRTRIBE_1": "Anaktuvuk Pass, Village of",
+                "TYPE": "Village",
+                "EPA_ID": 100000352,
+                "BIA_CODE": "TBD",
+                "FFS_ID": 16,
+                "CURRENT_TO": 1679875200000,
+                "SOURCE": "EPA",
+                "STATE": "AK",
+                "REGION": "10",
+                "LEAD_REGION": "10",
+                "CURRENT_USE": "Y",
+                "COMMENT": "",
+                "NAME_HISTORY": ""
+            },
+            "geometry": {
+                "x": -151.7357181653591,
+                "y": 68.14331019915511
+            }
+        },
+        {
+            "attributes": {
+                "OBJECTID": 101,
+                "NAME": "Bettles",
+                "TRIBE_NAME": "Evansville Village (aka Bettles Field)",
+                "CFRTRIBE_1": "Evansville Village (Bettles Field)",
+                "TYPE": "Village",
+                "EPA_ID": 100000403,
+                "BIA_CODE": "TBD",
+                "FFS_ID": 146,
+                "CURRENT_TO": 1679875200000,
+                "SOURCE": "EPA",
+                "STATE": "AK",
+                "REGION": "10",
+                "LEAD_REGION": "10",
+                "CURRENT_USE": "Y",
+                "COMMENT": "See notes 1/12/2023 and 1/8/2024",
+                "NAME_HISTORY": "1993: Evansville Village (aka Bettles Field)\n2023: Evansville Village (a.k.a. Bettles Field)\n2024: Evansville Village (aka Bettles Field)"
+            },
+            "geometry": {
+                "x": -151.68298330315832,
+                "y": 66.90692114262725
+            }
+        },
+        {
+            "attributes": {
+                "OBJECTID": 102,
+                "NAME": "Allakaket",
+                "TRIBE_NAME": "Allakaket Village",
+                "CFRTRIBE_1": "Allakaket Village",
+                "TYPE": "Village",
+                "EPA_ID": 100000350,
+                "BIA_CODE": "TBD",
+                "FFS_ID": 13,
+                "CURRENT_TO": 1679875200000,
+                "SOURCE": "EPA",
+                "STATE": "AK",
+                "REGION": "10",
+                "LEAD_REGION": "10",
+                "CURRENT_USE": "Y",
+                "COMMENT": "",
+                "NAME_HISTORY": ""
+            },
+            "geometry": {
+                "x": -152.6455079460873,
+                "y": 66.5655511969423
+            }
+        },
+        {
+            "attributes": {
+                "OBJECTID": 103,
+                "NAME": "Kobuk",
+                "TRIBE_NAME": "Native Village of Kobuk",
+                "CFRTRIBE_1": "Kobuk, Native Village of",
+                "TYPE": "Village",
+                "EPA_ID": 100000446,
+                "BIA_CODE": "TBD",
+                "FFS_ID": 261,
+                "CURRENT_TO": 1679875200000,
+                "SOURCE": "EPA",
+                "STATE": "AK",
+                "REGION": "10",
+                "LEAD_REGION": "10",
+                "CURRENT_USE": "Y",
+                "COMMENT": "",
+                "NAME_HISTORY": "1993: Native Village of Kobuk"
+            },
+            "geometry": {
+                "x": -156.88110339971837,
+                "y": 66.90716556024947
+            }
+        },
+        {
+            "attributes": {
+                "OBJECTID": 104,
+                "NAME": "Shungnak",
+                "TRIBE_NAME": "Native Village of Shungnak",
+                "CFRTRIBE_1": "Shungnak, Native Village of",
+                "TYPE": "Village",
+                "EPA_ID": 100000532,
+                "BIA_CODE": "TBD",
+                "FFS_ID": 440,
+                "CURRENT_TO": 1679875200000,
+                "SOURCE": "EPA",
+                "STATE": "AK",
+                "REGION": "10",
+                "LEAD_REGION": "10",
+                "CURRENT_USE": "Y",
+                "COMMENT": "",
+                "NAME_HISTORY": ""
+            },
+            "geometry": {
+                "x": -157.13635284650977,
+                "y": 66.88800140816738
+            }
+        },
+        {
+            "attributes": {
+                "OBJECTID": 105,
+                "NAME": "Ambler",
+                "TRIBE_NAME": "Native Village of Ambler",
+                "CFRTRIBE_1": "Ambler, Native Village of",
+                "TYPE": "Village",
+                "EPA_ID": 100000351,
+                "BIA_CODE": "TBD",
+                "FFS_ID": 14,
+                "CURRENT_TO": 1679875200000,
+                "SOURCE": "EPA",
+                "STATE": "AK",
+                "REGION": "10",
+                "LEAD_REGION": "10",
+                "CURRENT_USE": "Y",
+                "COMMENT": "",
+                "NAME_HISTORY": "1993: Native Village of Ambler"
+            },
+            "geometry": {
+                "x": -157.85131864815932,
+                "y": 67.08605914302959
+            }
+        },
+        {
+            "attributes": {
+                "OBJECTID": 106,
+                "NAME": "Kotzebue",
+                "TRIBE_NAME": "Native Village of Kotzebue",
+                "CFRTRIBE_1": "Kotzebue, Native Village of",
+                "TYPE": "Village",
+                "EPA_ID": 100000450,
+                "BIA_CODE": "TBD",
+                "FFS_ID": 269,
+                "CURRENT_TO": 1679875200000,
+                "SOURCE": "EPA",
+                "STATE": "AK",
+                "REGION": "10",
+                "LEAD_REGION": "10",
+                "CURRENT_USE": "Y",
+                "COMMENT": "",
+                "NAME_HISTORY": ""
+            },
+            "geometry": {
+                "x": -162.59655803661235,
+                "y": 66.8983152283243
+            }
+        },
+        {
+            "attributes": {
+                "OBJECTID": 107,
+                "NAME": "Kiana",
+                "TRIBE_NAME": "Native Village of Kiana",
+                "CFRTRIBE_1": "Kiana, Native Village of",
+                "TYPE": "Village",
+                "EPA_ID": 100000438,
+                "BIA_CODE": "TBD",
+                "FFS_ID": 249,
+                "CURRENT_TO": 1679875200000,
+                "SOURCE": "EPA",
+                "STATE": "AK",
+                "REGION": "10",
+                "LEAD_REGION": "10",
+                "CURRENT_USE": "Y",
+                "COMMENT": "",
+                "NAME_HISTORY": "1993: Native Village of Kiana"
+            },
+            "geometry": {
+                "x": -160.42272983303158,
+                "y": 66.97497585998795
+            }
+        },
+        {
+            "attributes": {
+                "OBJECTID": 108,
+                "NAME": "Noorvik",
+                "TRIBE_NAME": "Noorvik Native Community",
+                "CFRTRIBE_1": "Noorvik Native Community",
+                "TYPE": "Village",
+                "EPA_ID": 100000487,
+                "BIA_CODE": "TBD",
+                "FFS_ID": 355,
+                "CURRENT_TO": 1679875200000,
+                "SOURCE": "EPA",
+                "STATE": "AK",
+                "REGION": "10",
+                "LEAD_REGION": "10",
+                "CURRENT_USE": "Y",
+                "COMMENT": "",
+                "NAME_HISTORY": ""
+            },
+            "geometry": {
+                "x": -161.03271474552403,
+                "y": 66.83831723999197
+            }
+        },
+        {
+            "attributes": {
+                "OBJECTID": 109,
+                "NAME": "Selawik",
+                "TRIBE_NAME": "Native Village of Selawik",
+                "CFRTRIBE_1": "Selawik, Native Village of",
+                "TYPE": "Village",
+                "EPA_ID": 100000527,
+                "BIA_CODE": "TBD",
+                "FFS_ID": 429,
+                "CURRENT_TO": 1679875200000,
+                "SOURCE": "EPA",
+                "STATE": "AK",
+                "REGION": "10",
+                "LEAD_REGION": "10",
+                "CURRENT_USE": "Y",
+                "COMMENT": "",
+                "NAME_HISTORY": ""
+            },
+            "geometry": {
+                "x": -160.00683564675114,
+                "y": 66.60388151277411
+            }
+        },
+        {
+            "attributes": {
+                "OBJECTID": 110,
+                "NAME": "Noatak",
+                "TRIBE_NAME": "Native Village of Noatak",
+                "CFRTRIBE_1": "Noatak, Native Village of",
+                "TYPE": "Village",
+                "EPA_ID": 100000484,
+                "BIA_CODE": "TBD",
+                "FFS_ID": 350,
+                "CURRENT_TO": 1679875200000,
+                "SOURCE": "EPA",
+                "STATE": "AK",
+                "REGION": "10",
+                "LEAD_REGION": "10",
+                "CURRENT_USE": "Y",
+                "COMMENT": "",
+                "NAME_HISTORY": ""
+            },
+            "geometry": {
+                "x": -162.96520921343793,
+                "y": 67.57110541138607
+            }
+        },
+        {
+            "attributes": {
+                "OBJECTID": 111,
+                "NAME": "Shishmaref",
+                "TRIBE_NAME": "Native Village of Shishmaref",
+                "CFRTRIBE_1": "Shishmaref, Native Village of",
+                "TYPE": "Village",
+                "EPA_ID": 100000531,
+                "BIA_CODE": "TBD",
+                "FFS_ID": 438,
+                "CURRENT_TO": 1679875200000,
+                "SOURCE": "EPA",
+                "STATE": "AK",
+                "REGION": "10",
+                "LEAD_REGION": "10",
+                "CURRENT_USE": "Y",
+                "COMMENT": "",
+                "NAME_HISTORY": ""
+            },
+            "geometry": {
+                "x": -166.07189901428285,
+                "y": 66.25665258499296
+            }
+        },
+        {
+            "attributes": {
+                "OBJECTID": 112,
+                "NAME": "Kivalina",
+                "TRIBE_NAME": "Native Village of Kivalina",
+                "CFRTRIBE_1": "Kivalina, Native Village of",
+                "TYPE": "Village",
+                "EPA_ID": 100000442,
+                "BIA_CODE": "TBD",
+                "FFS_ID": 256,
+                "CURRENT_TO": 1679875200000,
+                "SOURCE": "EPA",
+                "STATE": "AK",
+                "REGION": "10",
+                "LEAD_REGION": "10",
+                "CURRENT_USE": "Y",
+                "COMMENT": "",
+                "NAME_HISTORY": ""
+            },
+            "geometry": {
+                "x": -164.53332528666263,
+                "y": 67.72692918929795
+            }
+        },
+        {
+            "attributes": {
+                "OBJECTID": 113,
+                "NAME": "Wainwright",
+                "TRIBE_NAME": "Village of Wainwright",
+                "CFRTRIBE_1": "Wainwright, Village of",
+                "TYPE": "Village",
+                "EPA_ID": 100000564,
+                "BIA_CODE": "TBD",
+                "FFS_ID": 519,
+                "CURRENT_TO": 1679875200000,
+                "SOURCE": "EPA",
+                "STATE": "AK",
+                "REGION": "10",
+                "LEAD_REGION": "10",
+                "CURRENT_USE": "Y",
+                "COMMENT": "",
+                "NAME_HISTORY": "1993: Village of Wainwright"
+            },
+            "geometry": {
+                "x": -160.03833031583181,
+                "y": 70.63690102595052
+            }
+        },
+        {
+            "attributes": {
+                "OBJECTID": 114,
+                "NAME": "Point Lay",
+                "TRIBE_NAME": "Native Village of Point Lay",
+                "CFRTRIBE_1": "Point Lay, Native Village of",
+                "TYPE": "Village",
+                "EPA_ID": 100000509,
+                "BIA_CODE": "TBD",
+                "FFS_ID": 390,
+                "CURRENT_TO": 1679875200000,
+                "SOURCE": "EPA",
+                "STATE": "AK",
+                "REGION": "10",
+                "LEAD_REGION": "10",
+                "CURRENT_USE": "Y",
+                "COMMENT": "",
+                "NAME_HISTORY": ""
+            },
+            "geometry": {
+                "x": -163.05102595051298,
+                "y": 69.7574471937236
+            }
+        },
+        {
+            "attributes": {
+                "OBJECTID": 115,
+                "NAME": "Point Hope",
+                "TRIBE_NAME": "Native Village of Point Hope",
+                "CFRTRIBE_1": "Point Hope, Native Village of",
+                "TYPE": "Village",
+                "EPA_ID": 100000508,
+                "BIA_CODE": "TBD",
+                "FFS_ID": 389,
+                "CURRENT_TO": 1679875200000,
+                "SOURCE": "EPA",
+                "STATE": "AK",
+                "REGION": "10",
+                "LEAD_REGION": "10",
+                "CURRENT_USE": "Y",
+                "COMMENT": "",
+                "NAME_HISTORY": ""
+            },
+            "geometry": {
+                "x": -166.80798330315832,
+                "y": 68.34771675719173
+            }
+        },
+        {
+            "attributes": {
+                "OBJECTID": 116,
+                "NAME": "Barrow",
+                "TRIBE_NAME": "Native Village of Barrow Inupiat Traditional Government",
+                "CFRTRIBE_1": "Barrow Inupiat Traditional Government, Native Village of",
+                "TYPE": "Village",
+                "EPA_ID": 100000362,
+                "BIA_CODE": "TBD",
+                "FFS_ID": 33,
+                "CURRENT_TO": 1679875200000,
+                "SOURCE": "EPA",
+                "STATE": "AK",
+                "REGION": "10",
+                "LEAD_REGION": "10",
+                "CURRENT_USE": "Y",
+                "COMMENT": "",
+                "NAME_HISTORY": "1993: Native Village of Barrow; \n1997: Native Village of Barrow Inupiat Traditional Government (formerly Native Village of Barrow)"
+            },
+            "geometry": {
+                "x": -156.7885737276202,
+                "y": 71.29052605109638
+            }
+        },
+        {
+            "attributes": {
+                "OBJECTID": 117,
+                "NAME": "Nuiqsut",
+                "TRIBE_NAME": "Native Village of Nuiqsut (aka Nooiksut)",
+                "CFRTRIBE_1": "Nuiqsut, Native Village of",
+                "TYPE": "Village",
+                "EPA_ID": 100000489,
+                "BIA_CODE": "TBD",
+                "FFS_ID": 354,
+                "CURRENT_TO": 1679875200000,
+                "SOURCE": "EPA",
+                "STATE": "AK",
+                "REGION": "10",
+                "LEAD_REGION": "10",
+                "CURRENT_USE": "Y",
+                "COMMENT": "See notes 1/12/2023 and 1/8/2024",
+                "NAME_HISTORY": "1993: Native Village of Nuiqsut (aka Nooiksut)\n2023: Native Village of Nuiqsut (a.k.a. Nooiksut)\n2024: Native Village of Nuiqsut (aka Nooiksut)"
+            },
+            "geometry": {
+                "x": -150.97631864815932,
+                "y": 70.21746932206801
+            }
+        },
+        {
+            "attributes": {
+                "OBJECTID": 118,
+                "NAME": "Kaktovik",
+                "TRIBE_NAME": "Kaktovik Village (aka Barter Island)",
+                "CFRTRIBE_1": "Kaktovik Village (Barter Island)",
+                "TYPE": "Village",
+                "EPA_ID": 100000429,
+                "BIA_CODE": "TBD",
+                "FFS_ID": 230,
+                "CURRENT_TO": 1679875200000,
+                "SOURCE": "EPA",
+                "STATE": "AK",
+                "REGION": "10",
+                "LEAD_REGION": "10",
+                "CURRENT_USE": "Y",
+                "COMMENT": "See notes 1/12/2023 and 1/8/2024",
+                "NAME_HISTORY": "1993: Kaktovik Village (aka Barter Island)\n2023: Kaktovik Village (a.k.a. Barter Island)\n2024: Kaktovik Village (aka Barter Island)"
+            },
+            "geometry": {
+                "x": -143.6237789177228,
+                "y": 70.13189700261518
+            }
+        },
+        {
+            "attributes": {
+                "OBJECTID": 119,
+                "NAME": "Arctic Village",
+                "TRIBE_NAME": "Arctic Village (See Native Village of Venetie Tribal Government)",
+                "CFRTRIBE_1": "Arctic Village (See Native Village of Venetie Tribal Government)",
+                "TYPE": "Village",
+                "EPA_ID": 100000357,
+                "BIA_CODE": "TBD",
+                "FFS_ID": 25,
+                "CURRENT_TO": 1679875200000,
+                "SOURCE": "EPA",
+                "STATE": "AK",
+                "REGION": "10",
+                "LEAD_REGION": "10",
+                "CURRENT_USE": "Y",
+                "COMMENT": "See Notes (5/13/2013 and 1/28/2022)",
+                "NAME_HISTORY": "1993: Arctic Village (See Native Village of Venetie Tribal Government)"
+            },
+            "geometry": {
+                "x": -145.53771977469322,
+                "y": 68.12689197344599
+            }
+        },
+        {
+            "attributes": {
+                "OBJECTID": 120,
+                "NAME": "Huslia",
+                "TRIBE_NAME": "Huslia Village",
+                "CFRTRIBE_1": "Huslia Village",
+                "TYPE": "Village",
+                "EPA_ID": 100000420,
+                "BIA_CODE": "TBD",
+                "FFS_ID": 210,
+                "CURRENT_TO": 1679875200000,
+                "SOURCE": "EPA",
+                "STATE": "AK",
+                "REGION": "10",
+                "LEAD_REGION": "10",
+                "CURRENT_USE": "Y",
+                "COMMENT": "",
+                "NAME_HISTORY": ""
+            },
+            "geometry": {
+                "x": -156.39965801649566,
+                "y": 65.69860893180447
+            }
+        },
+        {
+            "attributes": {
+                "OBJECTID": 121,
+                "NAME": "Hughes",
+                "TRIBE_NAME": "Hughes Village",
+                "CFRTRIBE_1": "Hughes Village",
+                "TYPE": "Village",
+                "EPA_ID": 100000419,
+                "BIA_CODE": "TBD",
+                "FFS_ID": 205,
+                "CURRENT_TO": 1679875200000,
+                "SOURCE": "EPA",
+                "STATE": "AK",
+                "REGION": "10",
+                "LEAD_REGION": "10",
+                "CURRENT_USE": "Y",
+                "COMMENT": "",
+                "NAME_HISTORY": ""
+            },
+            "geometry": {
+                "x": -154.25549285857977,
+                "y": 66.0488282035808
+            }
+        },
+        {
+            "attributes": {
+                "OBJECTID": 122,
+                "NAME": "Galena",
+                "TRIBE_NAME": "Louden Tribe",
+                "CFRTRIBE_1": "Galena Village (Louden)",
+                "TYPE": "Village",
+                "EPA_ID": 100000408,
+                "BIA_CODE": "TBD",
+                "FFS_ID": 290,
+                "CURRENT_TO": 1679875200000,
+                "SOURCE": "EPA",
+                "STATE": "AK",
+                "REGION": "10",
+                "LEAD_REGION": "10",
+                "CURRENT_USE": "Y",
+                "COMMENT": "1/12/2023: aka changed to a.k.a.",
+                "NAME_HISTORY": "1982: Galena Village (aka Louden Village)\n2023: Galena Village (a.k.a. Louden Village)\n2024: Louden Tribe"
+            },
+            "geometry": {
+                "x": -156.92749044457855,
+                "y": 64.73327700663853
+            }
+        },
+        {
+            "attributes": {
+                "OBJECTID": 123,
+                "NAME": "Kaltag",
+                "TRIBE_NAME": "Village of Kaltag",
+                "CFRTRIBE_1": "Kaltag, Village of",
+                "TYPE": "Village",
+                "EPA_ID": 100000431,
+                "BIA_CODE": "TBD",
+                "FFS_ID": 233,
+                "CURRENT_TO": 1679875200000,
+                "SOURCE": "EPA",
+                "STATE": "AK",
+                "REGION": "10",
+                "LEAD_REGION": "10",
+                "CURRENT_USE": "Y",
+                "COMMENT": "",
+                "NAME_HISTORY": "1993: Village of Kaltag"
+            },
+            "geometry": {
+                "x": -158.72192416012874,
+                "y": 64.32720981693825
+            }
+        },
+        {
+            "attributes": {
+                "OBJECTID": 124,
+                "NAME": "Nulato",
+                "TRIBE_NAME": "Nulato Village",
+                "CFRTRIBE_1": "Nulato Village",
+                "TYPE": "Village",
+                "EPA_ID": 100000490,
+                "BIA_CODE": "TBD",
+                "FFS_ID": 359,
+                "CURRENT_TO": 1679875200000,
+                "SOURCE": "EPA",
+                "STATE": "AK",
+                "REGION": "10",
+                "LEAD_REGION": "10",
+                "CURRENT_USE": "Y",
+                "COMMENT": "",
+                "NAME_HISTORY": ""
+            },
+            "geometry": {
+                "x": -158.1030275598471,
+                "y": 64.71942164554417
+            }
+        },
+        {
+            "attributes": {
+                "OBJECTID": 125,
+                "NAME": "Koyukuk",
+                "TRIBE_NAME": "Koyukuk Native Village",
+                "CFRTRIBE_1": "Koyukuk Native Village",
+                "TYPE": "Village",
+                "EPA_ID": 100000452,
+                "BIA_CODE": "TBD",
+                "FFS_ID": 271,
+                "CURRENT_TO": 1679875200000,
+                "SOURCE": "EPA",
+                "STATE": "AK",
+                "REGION": "10",
+                "LEAD_REGION": "10",
+                "CURRENT_USE": "Y",
+                "COMMENT": "",
+                "NAME_HISTORY": ""
+            },
+            "geometry": {
+                "x": -157.70080567290285,
+                "y": 64.8802494467914
+            }
+        },
+        {
+            "attributes": {
+                "OBJECTID": 126,
+                "NAME": "Ruby",
+                "TRIBE_NAME": "Native Village of Ruby",
+                "CFRTRIBE_1": "Ruby, Native Village of",
+                "TYPE": "Village",
+                "EPA_ID": 100000519,
+                "BIA_CODE": "TBD",
+                "FFS_ID": 416,
+                "CURRENT_TO": 1679875200000,
+                "SOURCE": "EPA",
+                "STATE": "AK",
+                "REGION": "10",
+                "LEAD_REGION": "10",
+                "CURRENT_USE": "Y",
+                "COMMENT": "",
+                "NAME_HISTORY": ""
+            },
+            "geometry": {
+                "x": -155.48693824180245,
+                "y": 64.7394417622209
+            }
+        },
+        {
+            "attributes": {
+                "OBJECTID": 127,
+                "NAME": "Nome",
+                "TRIBE_NAME": "Nome Eskimo Community",
+                "CFRTRIBE_1": "Nome Eskimo Community",
+                "TYPE": "Village",
+                "EPA_ID": 100000485,
+                "BIA_CODE": "TBD",
+                "FFS_ID": 352,
+                "CURRENT_TO": 1679875200000,
+                "SOURCE": "EPA",
+                "STATE": "AK",
+                "REGION": "10",
+                "LEAD_REGION": "10",
+                "CURRENT_USE": "Y",
+                "COMMENT": "",
+                "NAME_HISTORY": ""
+            },
+            "geometry": {
+                "x": -165.40637296318647,
+                "y": 64.50109837054922
+            }
+        },
+        {
+            "attributes": {
+                "OBJECTID": 128,
+                "NAME": "Elim",
+                "TRIBE_NAME": "Native Village of Elim",
+                "CFRTRIBE_1": "Elim, Native Village of",
+                "TYPE": "Village",
+                "EPA_ID": 100000401,
+                "BIA_CODE": "TBD",
+                "FFS_ID": 139,
+                "CURRENT_TO": 1679875200000,
+                "SOURCE": "EPA",
+                "STATE": "AK",
+                "REGION": "10",
+                "LEAD_REGION": "10",
+                "CURRENT_USE": "Y",
+                "COMMENT": "",
+                "NAME_HISTORY": ""
+            },
+            "geometry": {
+                "x": -162.26049788774895,
+                "y": 64.61749245624625
+            }
+        },
+        {
+            "attributes": {
+                "OBJECTID": 129,
+                "NAME": "White Mountain",
+                "TRIBE_NAME": "Native Village of White Mountain",
+                "CFRTRIBE_1": "White Mountain, Native Village of",
+                "TYPE": "Village",
+                "EPA_ID": 100000566,
+                "BIA_CODE": "TBD",
+                "FFS_ID": 525,
+                "CURRENT_TO": 1679875200000,
+                "SOURCE": "EPA",
+                "STATE": "AK",
+                "REGION": "10",
+                "LEAD_REGION": "10",
+                "CURRENT_USE": "Y",
+                "COMMENT": "",
+                "NAME_HISTORY": ""
+            },
+            "geometry": {
+                "x": -163.40551800442566,
+                "y": 64.68133474150073
+            }
+        },
+        {
+            "attributes": {
+                "OBJECTID": 130,
+                "NAME": "Koyuk",
+                "TRIBE_NAME": "Native Village of Koyuk",
+                "CFRTRIBE_1": "Koyuk, Native Village of",
+                "TYPE": "Village",
+                "EPA_ID": 100000451,
+                "BIA_CODE": "TBD",
+                "FFS_ID": 270,
+                "CURRENT_TO": 1679875200000,
+                "SOURCE": "EPA",
+                "STATE": "AK",
+                "REGION": "10",
+                "LEAD_REGION": "10",
+                "CURRENT_USE": "Y",
+                "COMMENT": "",
+                "NAME_HISTORY": ""
+            },
+            "geometry": {
+                "x": -161.15686079259706,
+                "y": 64.93188493260917
+            }
+        },
+        {
+            "attributes": {
+                "OBJECTID": 131,
+                "NAME": "Buckland",
+                "TRIBE_NAME": "Native Village of Buckland",
+                "CFRTRIBE_1": "Buckland, Native Village of",
+                "TYPE": "Village",
+                "EPA_ID": 100000368,
+                "BIA_CODE": "TBD",
+                "FFS_ID": 59,
+                "CURRENT_TO": 1679875200000,
+                "SOURCE": "EPA",
+                "STATE": "AK",
+                "REGION": "10",
+                "LEAD_REGION": "10",
+                "CURRENT_USE": "Y",
+                "COMMENT": "",
+                "NAME_HISTORY": ""
+            },
+            "geometry": {
+                "x": -161.12304667069,
+                "y": 65.97967612150475
+            }
+        },
+        {
+            "attributes": {
+                "OBJECTID": 132,
+                "NAME": "Teller",
+                "TRIBE_NAME": "Native Village of Teller",
+                "CFRTRIBE_1": "Teller, Native Village of",
+                "TYPE": "Village",
+                "EPA_ID": 100000549,
+                "BIA_CODE": "TBD",
+                "FFS_ID": 480,
+                "CURRENT_TO": 1679875200000,
+                "SOURCE": "EPA",
+                "STATE": "AK",
+                "REGION": "10",
+                "LEAD_REGION": "10",
+                "CURRENT_USE": "Y",
+                "COMMENT": "",
+                "NAME_HISTORY": "1993: Native Village of Teller"
+            },
+            "geometry": {
+                "x": -166.36071715952525,
+                "y": 65.26361094347214
+            }
+        },
+        {
+            "attributes": {
+                "OBJECTID": 133,
+                "NAME": "Brevig Mission",
+                "TRIBE_NAME": "Native Village of Brevig Mission",
+                "CFRTRIBE_1": "Brevig Mission, Native Village of",
+                "TYPE": "Village",
+                "EPA_ID": 100000367,
+                "BIA_CODE": "TBD",
+                "FFS_ID": 56,
+                "CURRENT_TO": 1679875200000,
+                "SOURCE": "EPA",
+                "STATE": "AK",
+                "REGION": "10",
+                "LEAD_REGION": "10",
+                "CURRENT_USE": "Y",
+                "COMMENT": "",
+                "NAME_HISTORY": "1993: Native Village of Brevig Mission"
+            },
+            "geometry": {
+                "x": -166.48913498290082,
+                "y": 65.33471736069203
+            }
+        },
+        {
+            "attributes": {
+                "OBJECTID": 134,
+                "NAME": "Deering",
+                "TRIBE_NAME": "Native Village of Deering",
+                "CFRTRIBE_1": "Deering, Native Village of",
+                "TYPE": "Village",
+                "EPA_ID": 100000391,
+                "BIA_CODE": "TBD",
+                "FFS_ID": 117,
+                "CURRENT_TO": 1679875200000,
+                "SOURCE": "EPA",
+                "STATE": "AK",
+                "REGION": "10",
+                "LEAD_REGION": "10",
+                "CURRENT_USE": "Y",
+                "COMMENT": "",
+                "NAME_HISTORY": ""
+            },
+            "geometry": {
+                "x": -162.71716354858177,
+                "y": 66.07549989941663
+            }
+        },
+        {
+            "attributes": {
+                "OBJECTID": 135,
+                "NAME": "Solomon",
+                "TRIBE_NAME": "Village of Solomon",
+                "CFRTRIBE_1": "Solomon, Village of",
+                "TYPE": "Village",
+                "EPA_ID": 100000536,
+                "BIA_CODE": "TBD",
+                "FFS_ID": 447,
+                "CURRENT_TO": 1679875200000,
+                "SOURCE": "EPA",
+                "STATE": "AK",
+                "REGION": "10",
+                "LEAD_REGION": "10",
+                "CURRENT_USE": "Y",
+                "COMMENT": "",
+                "NAME_HISTORY": "1993: Village of Solomon"
+            },
+            "geometry": {
+                "x": -164.4390867028767,
+                "y": 64.56079058539532
+            }
+        },
+        {
+            "attributes": {
+                "OBJECTID": 136,
+                "NAME": "Council",
+                "TRIBE_NAME": "Native Village of Council",
+                "CFRTRIBE_1": "Council, Native Village of",
+                "TYPE": "Village",
+                "EPA_ID": 100000387,
+                "BIA_CODE": "TBD",
+                "FFS_ID": 107,
+                "CURRENT_TO": 1679875200000,
+                "SOURCE": "EPA",
+                "STATE": "AK",
+                "REGION": "10",
+                "LEAD_REGION": "10",
+                "CURRENT_USE": "Y",
+                "COMMENT": "",
+                "NAME_HISTORY": "1993: Native Village of Council"
+            },
+            "geometry": {
+                "x": -163.67626936230135,
+                "y": 64.89495876081273
+            }
+        },
+        {
+            "attributes": {
+                "OBJECTID": 137,
+                "NAME": "Wales",
+                "TRIBE_NAME": "Native Village of Wales",
+                "CFRTRIBE_1": "Wales, Native Village of",
+                "TYPE": "Village",
+                "EPA_ID": 100000565,
+                "BIA_CODE": "TBD",
+                "FFS_ID": 521,
+                "CURRENT_TO": 1679875200000,
+                "SOURCE": "EPA",
+                "STATE": "AK",
+                "REGION": "10",
+                "LEAD_REGION": "10",
+                "CURRENT_USE": "Y",
+                "COMMENT": "",
+                "NAME_HISTORY": ""
+            },
+            "geometry": {
+                "x": -168.08740193120096,
+                "y": 65.60912995373167
+            }
+        },
+        {
+            "attributes": {
+                "OBJECTID": 138,
+                "NAME": "Gambell",
+                "TRIBE_NAME": "Native Village of Gambell",
+                "CFRTRIBE_1": "Gambell, Native Village of",
+                "TYPE": "Village",
+                "EPA_ID": 100000409,
+                "BIA_CODE": "TBD",
+                "FFS_ID": 167,
+                "CURRENT_TO": 1679875200000,
+                "SOURCE": "EPA",
+                "STATE": "AK",
+                "REGION": "10",
+                "LEAD_REGION": "10",
+                "CURRENT_USE": "Y",
+                "COMMENT": "",
+                "NAME_HISTORY": ""
+            },
+            "geometry": {
+                "x": -171.74108931804466,
+                "y": 63.779693220679974
+            }
+        },
+        {
+            "attributes": {
+                "OBJECTID": 139,
+                "NAME": "Saint Mary's",
+                "TRIBE_NAME": "Algaaciq Native Village (St. Mary's)",
+                "CFRTRIBE_1": "Algaaciq Native Village (St. Marys)",
+                "TYPE": "Village",
+                "EPA_ID": 100000349,
+                "BIA_CODE": "TBD",
+                "FFS_ID": 456,
+                "CURRENT_TO": 1679875200000,
+                "SOURCE": "EPA",
+                "STATE": "AK",
+                "REGION": "10",
+                "LEAD_REGION": "10",
+                "CURRENT_USE": "Y",
+                "COMMENT": "",
+                "NAME_HISTORY": "1993: Algaaciq Native Village (St. Mary's)"
+            },
+            "geometry": {
+                "x": -163.1657714745524,
+                "y": 62.053039629853174
+            }
+        },
+        {
+            "attributes": {
+                "OBJECTID": 140,
+                "NAME": "Scammon Bay",
+                "TRIBE_NAME": "Native Village of Scammon Bay",
+                "CFRTRIBE_1": "Scammon Bay, Native Village of",
+                "TYPE": "Village",
+                "EPA_ID": 100000526,
+                "BIA_CODE": "TBD",
+                "FFS_ID": 428,
+                "CURRENT_TO": 1679875200000,
+                "SOURCE": "EPA",
+                "STATE": "AK",
+                "REGION": "10",
+                "LEAD_REGION": "10",
+                "CURRENT_USE": "Y",
+                "COMMENT": "",
+                "NAME_HISTORY": ""
+            },
+            "geometry": {
+                "x": -165.58166566083284,
+                "y": 61.842773083886556
+            }
+        },
+        {
+            "attributes": {
+                "OBJECTID": 141,
+                "NAME": "Hooper Bay",
+                "TRIBE_NAME": "Native Village of Hooper Bay",
+                "CFRTRIBE_1": "Hooper Bay, Native Village of",
+                "TYPE": "Village",
+                "EPA_ID": 100000418,
+                "BIA_CODE": "TBD",
+                "FFS_ID": 199,
+                "CURRENT_TO": 1679875200000,
+                "SOURCE": "EPA",
+                "STATE": "AK",
+                "REGION": "10",
+                "LEAD_REGION": "10",
+                "CURRENT_USE": "Y",
+                "COMMENT": "",
+                "NAME_HISTORY": ""
+            },
+            "geometry": {
+                "x": -166.0965570307785,
+                "y": 61.53109736471538
+            }
+        },
+        {
+            "attributes": {
+                "OBJECTID": 142,
+                "NAME": "Nunam Iqua",
+                "TRIBE_NAME": "Native Village of Nunam Iqua",
+                "CFRTRIBE_1": "Native Village of Nunam Iqua",
+                "TYPE": "Village",
+                "EPA_ID": 100000492,
+                "BIA_CODE": "TBD",
+                "FFS_ID": 436,
+                "CURRENT_TO": 1679875200000,
+                "SOURCE": "EPA",
+                "STATE": "AK",
+                "REGION": "10",
+                "LEAD_REGION": "10",
+                "CURRENT_USE": "Y",
+                "COMMENT": "BIA TribeCode file does not reflect name change; 2012 uses \"previously\"",
+                "NAME_HISTORY": "2007: Native Village of Nunam Iqua (formerly the Native Village of Sheldon's Point)"
+            },
+            "geometry": {
+                "x": -164.84106517803258,
+                "y": 62.53359987929997
+            }
+        },
+        {
+            "attributes": {
+                "OBJECTID": 143,
+                "NAME": "Alakanuk",
+                "TRIBE_NAME": "Village of Alakanuk",
+                "CFRTRIBE_1": "Alakanuk, Village of",
+                "TYPE": "Village",
+                "EPA_ID": 100000346,
+                "BIA_CODE": "TBD",
+                "FFS_ID": 8,
+                "CURRENT_TO": 1679875200000,
+                "SOURCE": "EPA",
+                "STATE": "AK",
+                "REGION": "10",
+                "LEAD_REGION": "10",
+                "CURRENT_USE": "Y",
+                "COMMENT": "",
+                "NAME_HISTORY": ""
+            },
+            "geometry": {
+                "x": -164.61523435928385,
+                "y": 62.688873466103416
+            }
+        },
+        {
+            "attributes": {
+                "OBJECTID": 144,
+                "NAME": "Emmonak",
+                "TRIBE_NAME": "Emmonak Village",
+                "CFRTRIBE_1": "Emmonak Village",
+                "TYPE": "Village",
+                "EPA_ID": 100000402,
+                "BIA_CODE": "TBD",
+                "FFS_ID": 141,
+                "CURRENT_TO": 1679875200000,
+                "SOURCE": "EPA",
+                "STATE": "AK",
+                "REGION": "10",
+                "LEAD_REGION": "10",
+                "CURRENT_USE": "Y",
+                "COMMENT": "",
+                "NAME_HISTORY": ""
+            },
+            "geometry": {
+                "x": -164.52294910480788,
+                "y": 62.77777107221888
+            }
+        },
+        {
+            "attributes": {
+                "OBJECTID": 145,
+                "NAME": "Stebbins",
+                "TRIBE_NAME": "Stebbins Community Association",
+                "CFRTRIBE_1": "Stebbins Community Association",
+                "TYPE": "Village",
+                "EPA_ID": 100000538,
+                "BIA_CODE": "TBD",
+                "FFS_ID": 460,
+                "CURRENT_TO": 1679875200000,
+                "SOURCE": "EPA",
+                "STATE": "AK",
+                "REGION": "10",
+                "LEAD_REGION": "10",
+                "CURRENT_USE": "Y",
+                "COMMENT": "",
+                "NAME_HISTORY": ""
+            },
+            "geometry": {
+                "x": -162.28796419231543,
+                "y": 63.522216857775106
+            }
+        },
+        {
+            "attributes": {
+                "OBJECTID": 146,
+                "NAME": "Saint Michael",
+                "TRIBE_NAME": "Native Village of Saint Michael",
+                "CFRTRIBE_1": "Saint Michael, Native Village of",
+                "TYPE": "Village",
+                "EPA_ID": 100000521,
+                "BIA_CODE": "TBD",
+                "FFS_ID": 457,
+                "CURRENT_TO": 1679875200000,
+                "SOURCE": "EPA",
+                "STATE": "AK",
+                "REGION": "10",
+                "LEAD_REGION": "10",
+                "CURRENT_USE": "Y",
+                "COMMENT": "",
+                "NAME_HISTORY": "1993: Native Village of Saint Michael"
+            },
+            "geometry": {
+                "x": -162.03906256286461,
+                "y": 63.478027559847135
+            }
+        },
+        {
+            "attributes": {
+                "OBJECTID": 147,
+                "NAME": "Kotlik",
+                "TRIBE_NAME": "Village of Kotlik",
+                "CFRTRIBE_1": "Kotlik, Village of",
+                "TYPE": "Village",
+                "EPA_ID": 100000449,
+                "BIA_CODE": "TBD",
+                "FFS_ID": 268,
+                "CURRENT_TO": 1679875200000,
+                "SOURCE": "EPA",
+                "STATE": "AK",
+                "REGION": "10",
+                "LEAD_REGION": "10",
+                "CURRENT_USE": "Y",
+                "COMMENT": "",
+                "NAME_HISTORY": ""
+            },
+            "geometry": {
+                "x": -163.55322269161135,
+                "y": 63.03415007040837
+            }
+        },
+        {
+            "attributes": {
+                "OBJECTID": 148,
+                "NAME": "Chevak",
+                "TRIBE_NAME": "Chevak Native Village",
+                "CFRTRIBE_1": "Chevak Native Village",
+                "TYPE": "Village",
+                "EPA_ID": 100000374,
+                "BIA_CODE": "TBD",
+                "FFS_ID": 80,
+                "CURRENT_TO": 1679875200000,
+                "SOURCE": "EPA",
+                "STATE": "AK",
+                "REGION": "10",
+                "LEAD_REGION": "10",
+                "CURRENT_USE": "Y",
+                "COMMENT": "",
+                "NAME_HISTORY": ""
+            },
+            "geometry": {
+                "x": -165.58630356065177,
+                "y": 61.52777107221888
+            }
+        },
+        {
+            "attributes": {
+                "OBJECTID": 149,
+                "NAME": "Marshall",
+                "TRIBE_NAME": "Native Village of Marshall (aka Fortuna Ledge)",
+                "CFRTRIBE_1": "Marshall, Native Village of (Fortuna Ledge)",
+                "TYPE": "Village",
+                "EPA_ID": 100000462,
+                "BIA_CODE": "TBD",
+                "FFS_ID": 297,
+                "CURRENT_TO": 1679875200000,
+                "SOURCE": "EPA",
+                "STATE": "AK",
+                "REGION": "10",
+                "LEAD_REGION": "10",
+                "CURRENT_USE": "Y",
+                "COMMENT": "See notes 1/12/2023 and 1/8/2024",
+                "NAME_HISTORY": "1982: Native Village of Marshall (aka Fortuna Ledge)\n2023: Native Village of Marshall (a.k.a. Fortuna Ledge)\n2024: Native Village of Marshall (aka Fortuna Ledge)"
+            },
+            "geometry": {
+                "x": -162.0810551196942,
+                "y": 61.8777771072219
+            }
+        },
+        {
+            "attributes": {
+                "OBJECTID": 150,
+                "NAME": "Holy Cross",
+                "TRIBE_NAME": "Holy Cross Tribe",
+                "CFRTRIBE_1": "Holy Cross Tribel",
+                "TYPE": "Village",
+                "EPA_ID": 100000416,
+                "BIA_CODE": "TBD",
+                "FFS_ID": 195,
+                "CURRENT_TO": 1679875200000,
+                "SOURCE": "EPA",
+                "STATE": "AK",
+                "REGION": "10",
+                "LEAD_REGION": "10",
+                "CURRENT_USE": "Y",
+                "COMMENT": "",
+                "NAME_HISTORY": "2019: Holy Cross Tribe"
+            },
+            "geometry": {
+                "x": -159.77136189901427,
+                "y": 62.199432709716376
+            }
+        },
+        {
+            "attributes": {
+                "OBJECTID": 151,
+                "NAME": "Shageluk",
+                "TRIBE_NAME": "Shageluk Native Village",
+                "CFRTRIBE_1": "Shageluk Native Village",
+                "TYPE": "Village",
+                "EPA_ID": 100000529,
+                "BIA_CODE": "TBD",
+                "FFS_ID": 434,
+                "CURRENT_TO": 1679875200000,
+                "SOURCE": "EPA",
+                "STATE": "AK",
+                "REGION": "10",
+                "LEAD_REGION": "10",
+                "CURRENT_USE": "Y",
+                "COMMENT": "",
+                "NAME_HISTORY": ""
+            },
+            "geometry": {
+                "x": -159.56188996177832,
+                "y": 62.68222088111045
+            }
+        },
+        {
+            "attributes": {
+                "OBJECTID": 152,
+                "NAME": "Anvik",
+                "TRIBE_NAME": "Anvik Village",
+                "CFRTRIBE_1": "Anvik Village",
+                "TYPE": "Village",
+                "EPA_ID": 100000356,
+                "BIA_CODE": "TBD",
+                "FFS_ID": 22,
+                "CURRENT_TO": 1679875200000,
+                "SOURCE": "EPA",
+                "STATE": "AK",
+                "REGION": "10",
+                "LEAD_REGION": "10",
+                "CURRENT_USE": "Y",
+                "COMMENT": "",
+                "NAME_HISTORY": ""
+            },
+            "geometry": {
+                "x": -160.206664654999,
+                "y": 62.65609736471538
+            }
+        },
+        {
+            "attributes": {
+                "OBJECTID": 153,
+                "NAME": "Aniak",
+                "TRIBE_NAME": "Village of Aniak",
+                "CFRTRIBE_1": "Aniak, Village of",
+                "TYPE": "Village",
+                "EPA_ID": 100000355,
+                "BIA_CODE": "TBD",
+                "FFS_ID": 21,
+                "CURRENT_TO": 1679875200000,
+                "SOURCE": "EPA",
+                "STATE": "AK",
+                "REGION": "10",
+                "LEAD_REGION": "10",
+                "CURRENT_USE": "Y",
+                "COMMENT": "",
+                "NAME_HISTORY": ""
+            },
+            "geometry": {
+                "x": -159.5222168577751,
+                "y": 61.57830818748744
+            }
+        },
+        {
+            "attributes": {
+                "OBJECTID": 154,
+                "NAME": "Napamiute",
+                "TRIBE_NAME": "Native Village of Napaimute",
+                "CFRTRIBE_1": "Napaimute, Native Village of",
+                "TYPE": "Village",
+                "EPA_ID": 100000471,
+                "BIA_CODE": "TBD",
+                "FFS_ID": 332,
+                "CURRENT_TO": 1679875200000,
+                "SOURCE": "EPA",
+                "STATE": "AK",
+                "REGION": "10",
+                "LEAD_REGION": "10",
+                "CURRENT_USE": "Y",
+                "COMMENT": "",
+                "NAME_HISTORY": "1993: Native Village of Napaimute"
+            },
+            "geometry": {
+                "x": -158.67407262120298,
+                "y": 61.53997787165562
+            }
+        },
+        {
+            "attributes": {
+                "OBJECTID": 155,
+                "NAME": "Crooked Creek",
+                "TRIBE_NAME": "Village of Crooked Creek",
+                "CFRTRIBE_1": "Crooked Creek, Village of",
+                "TYPE": "Village",
+                "EPA_ID": 100000389,
+                "BIA_CODE": "TBD",
+                "FFS_ID": 109,
+                "CURRENT_TO": 1679875200000,
+                "SOURCE": "EPA",
+                "STATE": "AK",
+                "REGION": "10",
+                "LEAD_REGION": "10",
+                "CURRENT_USE": "Y",
+                "COMMENT": "",
+                "NAME_HISTORY": ""
+            },
+            "geometry": {
+                "x": -158.1107181653591,
+                "y": 61.869994970830845
+            }
+        },
+        {
+            "attributes": {
+                "OBJECTID": 156,
+                "NAME": "Sleetmute",
+                "TRIBE_NAME": "Village of Sleetmute",
+                "CFRTRIBE_1": "Sleetmute, Village of",
+                "TYPE": "Village",
+                "EPA_ID": 100000535,
+                "BIA_CODE": "TBD",
+                "FFS_ID": 446,
+                "CURRENT_TO": 1679875200000,
+                "SOURCE": "EPA",
+                "STATE": "AK",
+                "REGION": "10",
+                "LEAD_REGION": "10",
+                "CURRENT_USE": "Y",
+                "COMMENT": "",
+                "NAME_HISTORY": ""
+            },
+            "geometry": {
+                "x": -157.1696781331724,
+                "y": 61.70248440957556
+            }
+        },
+        {
+            "attributes": {
+                "OBJECTID": 157,
+                "NAME": "Stony River",
+                "TRIBE_NAME": "Village of Stony River",
+                "CFRTRIBE_1": "Stony River, Village of",
+                "TYPE": "Village",
+                "EPA_ID": 100000540,
+                "BIA_CODE": "TBD",
+                "FFS_ID": 464,
+                "CURRENT_TO": 1679875200000,
+                "SOURCE": "EPA",
+                "STATE": "AK",
+                "REGION": "10",
+                "LEAD_REGION": "10",
+                "CURRENT_USE": "Y",
+                "COMMENT": "",
+                "NAME_HISTORY": ""
+            },
+            "geometry": {
+                "x": -156.58801247233956,
+                "y": 61.78305069402538
+            }
+        },
+        {
+            "attributes": {
+                "OBJECTID": 158,
+                "NAME": "Lime Village",
+                "TRIBE_NAME": "Lime Village",
+                "CFRTRIBE_1": "Lime Village",
+                "TYPE": "Village",
+                "EPA_ID": 100000458,
+                "BIA_CODE": "TBD",
+                "FFS_ID": 288,
+                "CURRENT_TO": 1679875200000,
+                "SOURCE": "EPA",
+                "STATE": "AK",
+                "REGION": "10",
+                "LEAD_REGION": "10",
+                "CURRENT_USE": "Y",
+                "COMMENT": "",
+                "NAME_HISTORY": ""
+            },
+            "geometry": {
+                "x": -155.43554717360692,
+                "y": 61.3563840273587
+            }
+        },
+        {
+            "attributes": {
+                "OBJECTID": 159,
+                "NAME": "Red Devil",
+                "TRIBE_NAME": "Village of Red Devil",
+                "CFRTRIBE_1": "Red Devil, Village of",
+                "TYPE": "Village",
+                "EPA_ID": 100000518,
+                "BIA_CODE": "TBD",
+                "FFS_ID": 411,
+                "CURRENT_TO": 1679875200000,
+                "SOURCE": "EPA",
+                "STATE": "AK",
+                "REGION": "10",
+                "LEAD_REGION": "10",
+                "CURRENT_USE": "Y",
+                "COMMENT": "",
+                "NAME_HISTORY": ""
+            },
+            "geometry": {
+                "x": -157.31250050291692,
+                "y": 61.76110842888755
+            }
+        },
+        {
+            "attributes": {
+                "OBJECTID": 160,
+                "NAME": "Unalakleet",
+                "TRIBE_NAME": "Native Village of Unalakleet",
+                "CFRTRIBE_1": "Unalakleet, Native Village of",
+                "TYPE": "Village",
+                "EPA_ID": 100000560,
+                "BIA_CODE": "TBD",
+                "FFS_ID": 509,
+                "CURRENT_TO": 1679875200000,
+                "SOURCE": "EPA",
+                "STATE": "AK",
+                "REGION": "10",
+                "LEAD_REGION": "10",
+                "CURRENT_USE": "Y",
+                "COMMENT": "",
+                "NAME_HISTORY": ""
+            },
+            "geometry": {
+                "x": -160.7879631864816,
+                "y": 63.87304667069003
+            }
+        },
+        {
+            "attributes": {
+                "OBJECTID": 161,
+                "NAME": "McGrath",
+                "TRIBE_NAME": "McGrath Native Village",
+                "CFRTRIBE_1": "McGrath Native Village",
+                "TYPE": "Village",
+                "EPA_ID": 100000464,
+                "BIA_CODE": "TBD",
+                "FFS_ID": 303,
+                "CURRENT_TO": 1679875200000,
+                "SOURCE": "EPA",
+                "STATE": "AK",
+                "REGION": "10",
+                "LEAD_REGION": "10",
+                "CURRENT_USE": "Y",
+                "COMMENT": "",
+                "NAME_HISTORY": "1993: McGrath Native Village"
+            },
+            "geometry": {
+                "x": -155.5958247837457,
+                "y": 62.95635988734662
+            }
+        },
+        {
+            "attributes": {
+                "OBJECTID": 162,
+                "NAME": "Takotna",
+                "TRIBE_NAME": "Takotna Village",
+                "CFRTRIBE_1": "Takotna Village",
+                "TYPE": "Village",
+                "EPA_ID": 100000542,
+                "BIA_CODE": "TBD",
+                "FFS_ID": 472,
+                "CURRENT_TO": 1679875200000,
+                "SOURCE": "EPA",
+                "STATE": "AK",
+                "REGION": "10",
+                "LEAD_REGION": "10",
+                "CURRENT_USE": "Y",
+                "COMMENT": "",
+                "NAME_HISTORY": ""
+            },
+            "geometry": {
+                "x": -156.0640867028767,
+                "y": 62.98858579762626
+            }
+        },
+        {
+            "attributes": {
+                "OBJECTID": 163,
+                "NAME": "Nikolai",
+                "TRIBE_NAME": "Nikolai Village",
+                "CFRTRIBE_1": "Nikolai Village",
+                "TYPE": "Village",
+                "EPA_ID": 100000481,
+                "BIA_CODE": "TBD",
+                "FFS_ID": 345,
+                "CURRENT_TO": 1679875200000,
+                "SOURCE": "EPA",
+                "STATE": "AK",
+                "REGION": "10",
+                "LEAD_REGION": "10",
+                "CURRENT_USE": "Y",
+                "COMMENT": "",
+                "NAME_HISTORY": ""
+            },
+            "geometry": {
+                "x": -154.375,
+                "y": 63.013306175819764
+            }
+        },
+        {
+            "attributes": {
+                "OBJECTID": 164,
+                "NAME": "Clark's Point",
+                "TRIBE_NAME": "Village of Clarks Point",
+                "CFRTRIBE_1": "Clarks Point, Village of (Previously Clarks Point)",
+                "TYPE": "Village",
+                "EPA_ID": 100000386,
+                "BIA_CODE": "TBD",
+                "FFS_ID": 96,
+                "CURRENT_TO": 1679875200000,
+                "SOURCE": "EPA",
+                "STATE": "AK",
+                "REGION": "10",
+                "LEAD_REGION": "10",
+                "CURRENT_USE": "Y",
+                "COMMENT": "",
+                "NAME_HISTORY": "1993: Village of Clarks's Point; \n1997: Village of Clark's Point; \n2002: Village of Clarks Point (previously listed as the Village of Clark's Point); \n2003: Village of Clarks Point"
+            },
+            "geometry": {
+                "x": -158.55078153289077,
+                "y": 58.84414604707305
+            }
+        },
+        {
+            "attributes": {
+                "OBJECTID": 165,
+                "NAME": "Nondalton",
+                "TRIBE_NAME": "Nondalton Village",
+                "CFRTRIBE_1": "Nondalton Village",
+                "TYPE": "Village",
+                "EPA_ID": 100000486,
+                "BIA_CODE": "TBD",
+                "FFS_ID": 353,
+                "CURRENT_TO": 1679875200000,
+                "SOURCE": "EPA",
+                "STATE": "AK",
+                "REGION": "10",
+                "LEAD_REGION": "10",
+                "CURRENT_USE": "Y",
+                "COMMENT": "",
+                "NAME_HISTORY": ""
+            },
+            "geometry": {
+                "x": -154.8458247837457,
+                "y": 59.97360289680145
+            }
+        },
+        {
+            "attributes": {
+                "OBJECTID": 166,
+                "NAME": "Aleknagik",
+                "TRIBE_NAME": "Native Village of Aleknagik",
+                "CFRTRIBE_1": "Aleknagik, Native Village of",
+                "TYPE": "Village",
+                "EPA_ID": 100000348,
+                "BIA_CODE": "TBD",
+                "FFS_ID": 11,
+                "CURRENT_TO": 1679875200000,
+                "SOURCE": "EPA",
+                "STATE": "AK",
+                "REGION": "10",
+                "LEAD_REGION": "10",
+                "CURRENT_USE": "Y",
+                "COMMENT": "",
+                "NAME_HISTORY": "1993: Native Village of Aleknagik"
+            },
+            "geometry": {
+                "x": -158.61767551800443,
+                "y": 59.27304063568701
+            }
+        },
+        {
+            "attributes": {
+                "OBJECTID": 167,
+                "NAME": "Ekwok",
+                "TRIBE_NAME": "Native Village of Ekwok",
+                "CFRTRIBE_1": "Ekwok Village",
+                "TYPE": "Village",
+                "EPA_ID": 100000400,
+                "BIA_CODE": "TBD",
+                "FFS_ID": 137,
+                "CURRENT_TO": 1679875200000,
+                "SOURCE": "EPA",
+                "STATE": "AK",
+                "REGION": "10",
+                "LEAD_REGION": "10",
+                "CURRENT_USE": "Y",
+                "COMMENT": "",
+                "NAME_HISTORY": "2015: Native Village of Ekwok"
+            },
+            "geometry": {
+                "x": -157.4752192717763,
+                "y": 59.34970126735064
+            }
+        },
+        {
+            "attributes": {
+                "OBJECTID": 168,
+                "NAME": "New Stuyahok",
+                "TRIBE_NAME": "New Stuyahok Village",
+                "CFRTRIBE_1": "New Stuyahok Village",
+                "TYPE": "Village",
+                "EPA_ID": 100000477,
+                "BIA_CODE": "TBD",
+                "FFS_ID": 339,
+                "CURRENT_TO": 1679875200000,
+                "SOURCE": "EPA",
+                "STATE": "AK",
+                "REGION": "10",
+                "LEAD_REGION": "10",
+                "CURRENT_USE": "Y",
+                "COMMENT": "",
+                "NAME_HISTORY": ""
+            },
+            "geometry": {
+                "x": -157.31188996177832,
+                "y": 59.452759002212844
+            }
+        },
+        {
+            "attributes": {
+                "OBJECTID": 169,
+                "NAME": "Naknek",
+                "TRIBE_NAME": "Naknek Native Village",
+                "CFRTRIBE_1": "Naknek Native Village",
+                "TYPE": "Village",
+                "EPA_ID": 100000469,
+                "BIA_CODE": "TBD",
+                "FFS_ID": 330,
+                "CURRENT_TO": 1679875200000,
+                "SOURCE": "EPA",
+                "STATE": "AK",
+                "REGION": "10",
+                "LEAD_REGION": "10",
+                "CURRENT_USE": "Y",
+                "COMMENT": "",
+                "NAME_HISTORY": ""
+            },
+            "geometry": {
+                "x": -157.01379400523032,
+                "y": 58.728332327499515
+            }
+        },
+        {
+            "attributes": {
+                "OBJECTID": 170,
+                "NAME": "Koliganek",
+                "TRIBE_NAME": "New Koliganek Village Council",
+                "CFRTRIBE_1": "New Koliganek Village Council",
+                "TYPE": "Village",
+                "EPA_ID": 100000476,
+                "BIA_CODE": "TBD",
+                "FFS_ID": 266,
+                "CURRENT_TO": 1679875200000,
+                "SOURCE": "EPA",
+                "STATE": "AK",
+                "REGION": "10",
+                "LEAD_REGION": "10",
+                "CURRENT_USE": "Y",
+                "COMMENT": "",
+                "NAME_HISTORY": "1993: Koliganek Village; \n1997: New Koliganek Village Council (formerly Koliganek Village); \n2007: New Koliganek Village Council"
+            },
+            "geometry": {
+                "x": -157.28442365721182,
+                "y": 59.7286069201368
+            }
+        },
+        {
+            "attributes": {
+                "OBJECTID": 171,
+                "NAME": "Igiugig",
+                "TRIBE_NAME": "Igiugig Village",
+                "CFRTRIBE_1": "Igiugig Village",
+                "TYPE": "Village",
+                "EPA_ID": 100000422,
+                "BIA_CODE": "TBD",
+                "FFS_ID": 214,
+                "CURRENT_TO": 1679875200000,
+                "SOURCE": "EPA",
+                "STATE": "AK",
+                "REGION": "10",
+                "LEAD_REGION": "10",
+                "CURRENT_USE": "Y",
+                "COMMENT": "",
+                "NAME_HISTORY": ""
+            },
+            "geometry": {
+                "x": -155.89465298732648,
+                "y": 59.327759002212844
+            }
+        },
+        {
+            "attributes": {
+                "OBJECTID": 172,
+                "NAME": "Iliamna",
+                "TRIBE_NAME": "Village of Iliamna",
+                "CFRTRIBE_1": "Iliamna, Village of",
+                "TYPE": "Village",
+                "EPA_ID": 100000423,
+                "BIA_CODE": "TBD",
+                "FFS_ID": 216,
+                "CURRENT_TO": 1679875200000,
+                "SOURCE": "EPA",
+                "STATE": "AK",
+                "REGION": "10",
+                "LEAD_REGION": "10",
+                "CURRENT_USE": "Y",
+                "COMMENT": "",
+                "NAME_HISTORY": ""
+            },
+            "geometry": {
+                "x": -154.81713840273585,
+                "y": 59.75360088513381
+            }
+        },
+        {
+            "attributes": {
+                "OBJECTID": 173,
+                "NAME": "Newhalen",
+                "TRIBE_NAME": "Newhalen Village",
+                "CFRTRIBE_1": "Newhalen Village",
+                "TYPE": "Village",
+                "EPA_ID": 100000478,
+                "BIA_CODE": "TBD",
+                "FFS_ID": 340,
+                "CURRENT_TO": 1679875200000,
+                "SOURCE": "EPA",
+                "STATE": "AK",
+                "REGION": "10",
+                "LEAD_REGION": "10",
+                "CURRENT_USE": "Y",
+                "COMMENT": "",
+                "NAME_HISTORY": ""
+            },
+            "geometry": {
+                "x": -154.8972168577751,
+                "y": 59.71997083081877
+            }
+        },
+        {
+            "attributes": {
+                "OBJECTID": 174,
+                "NAME": "Levelock",
+                "TRIBE_NAME": "Levelock Village",
+                "CFRTRIBE_1": "Levelock Village",
+                "TYPE": "Village",
+                "EPA_ID": 100000457,
+                "BIA_CODE": "TBD",
+                "FFS_ID": 283,
+                "CURRENT_TO": 1679875200000,
+                "SOURCE": "EPA",
+                "STATE": "AK",
+                "REGION": "10",
+                "LEAD_REGION": "10",
+                "CURRENT_USE": "Y",
+                "COMMENT": "",
+                "NAME_HISTORY": ""
+            },
+            "geometry": {
+                "x": -156.85656708911688,
+                "y": 59.1149909474955
+            }
+        },
+        {
+            "attributes": {
+                "OBJECTID": 175,
+                "NAME": "South Naknek",
+                "TRIBE_NAME": "South Naknek Village",
+                "CFRTRIBE_1": "South Naknek Village",
+                "TYPE": "Village",
+                "EPA_ID": 100000537,
+                "BIA_CODE": "TBD",
+                "FFS_ID": 450,
+                "CURRENT_TO": 1679875200000,
+                "SOURCE": "EPA",
+                "STATE": "AK",
+                "REGION": "10",
+                "LEAD_REGION": "10",
+                "CURRENT_USE": "Y",
+                "COMMENT": "",
+                "NAME_HISTORY": ""
+            },
+            "geometry": {
+                "x": -156.99804667069,
+                "y": 58.71554616777311
+            }
+        },
+        {
+            "attributes": {
+                "OBJECTID": 176,
+                "NAME": "Goodnews Bay",
+                "TRIBE_NAME": "Native Village of Goodnews Bay",
+                "CFRTRIBE_1": "Goodnews Bay, Native Village of",
+                "TYPE": "Village",
+                "EPA_ID": 100000411,
+                "BIA_CODE": "TBD",
+                "FFS_ID": 325,
+                "CURRENT_TO": 1679875200000,
+                "SOURCE": "EPA",
+                "STATE": "AK",
+                "REGION": "10",
+                "LEAD_REGION": "10",
+                "CURRENT_USE": "Y",
+                "COMMENT": "",
+                "NAME_HISTORY": ""
+            },
+            "geometry": {
+                "x": -161.58850030175014,
+                "y": 59.11859082679544
+            }
+        },
+        {
+            "attributes": {
+                "OBJECTID": 177,
+                "NAME": "Platinum",
+                "TRIBE_NAME": "Platinum Traditional Village",
+                "CFRTRIBE_1": "Platinum Traditional Village",
+                "TYPE": "Village",
+                "EPA_ID": 100000507,
+                "BIA_CODE": "TBD",
+                "FFS_ID": 388,
+                "CURRENT_TO": 1679875200000,
+                "SOURCE": "EPA",
+                "STATE": "AK",
+                "REGION": "10",
+                "LEAD_REGION": "10",
+                "CURRENT_USE": "Y",
+                "COMMENT": "",
+                "NAME_HISTORY": ""
+            },
+            "geometry": {
+                "x": -161.8162844498089,
+                "y": 59.01303158318248
+            }
+        },
+        {
+            "attributes": {
+                "OBJECTID": 178,
+                "NAME": "Togiak",
+                "TRIBE_NAME": "Traditional Village of Togiak",
+                "CFRTRIBE_1": "Togiak, Traditional Village of",
+                "TYPE": "Village",
+                "EPA_ID": 100000552,
+                "BIA_CODE": "TBD",
+                "FFS_ID": 487,
+                "CURRENT_TO": 1679875200000,
+                "SOURCE": "EPA",
+                "STATE": "AK",
+                "REGION": "10",
+                "LEAD_REGION": "10",
+                "CURRENT_USE": "Y",
+                "COMMENT": "",
+                "NAME_HISTORY": ""
+            },
+            "geometry": {
+                "x": -160.3763427881714,
+                "y": 59.06192013679342
+            }
+        },
+        {
+            "attributes": {
+                "OBJECTID": 179,
+                "NAME": "Eek",
+                "TRIBE_NAME": "Native Village of Eek",
+                "CFRTRIBE_1": "Eek, Native Village of",
+                "TYPE": "Village",
+                "EPA_ID": 100000396,
+                "BIA_CODE": "TBD",
+                "FFS_ID": 132,
+                "CURRENT_TO": 1679875200000,
+                "SOURCE": "EPA",
+                "STATE": "AK",
+                "REGION": "10",
+                "LEAD_REGION": "10",
+                "CURRENT_USE": "Y",
+                "COMMENT": "",
+                "NAME_HISTORY": ""
+            },
+            "geometry": {
+                "x": -162.0244146047073,
+                "y": 60.21887246026958
+            }
+        },
+        {
+            "attributes": {
+                "OBJECTID": 180,
+                "NAME": "Twin Hills",
+                "TRIBE_NAME": "Twin Hills Village",
+                "CFRTRIBE_1": "Twin Hills Village",
+                "TYPE": "Village",
+                "EPA_ID": 100000556,
+                "BIA_CODE": "TBD",
+                "FFS_ID": 503,
+                "CURRENT_TO": 1679875200000,
+                "SOURCE": "EPA",
+                "STATE": "AK",
+                "REGION": "10",
+                "LEAD_REGION": "10",
+                "CURRENT_USE": "Y",
+                "COMMENT": "",
+                "NAME_HISTORY": ""
+            },
+            "geometry": {
+                "x": -160.27490243411788,
+                "y": 59.07916314624825
+            }
+        },
+        {
+            "attributes": {
+                "OBJECTID": 181,
+                "NAME": "Kwigillingok",
+                "TRIBE_NAME": "Native Village of Kwigillingok",
+                "CFRTRIBE_1": "Kwigillingok, Native Village of",
+                "TYPE": "Village",
+                "EPA_ID": 100000454,
+                "BIA_CODE": "TBD",
+                "FFS_ID": 276,
+                "CURRENT_TO": 1679875200000,
+                "SOURCE": "EPA",
+                "STATE": "AK",
+                "REGION": "10",
+                "LEAD_REGION": "10",
+                "CURRENT_USE": "Y",
+                "COMMENT": "",
+                "NAME_HISTORY": ""
+            },
+            "geometry": {
+                "x": -163.13415509957755,
+                "y": 59.864441762220906
+            }
+        },
+        {
+            "attributes": {
+                "OBJECTID": 182,
+                "NAME": "Mekoryuk",
+                "TRIBE_NAME": "Native Village of Mekoryuk",
+                "CFRTRIBE_1": "Mekoryuk, Native Village of",
+                "TYPE": "Village",
+                "EPA_ID": 100000465,
+                "BIA_CODE": "TBD",
+                "FFS_ID": 307,
+                "CURRENT_TO": 1679875200000,
+                "SOURCE": "EPA",
+                "STATE": "AK",
+                "REGION": "10",
+                "LEAD_REGION": "10",
+                "CURRENT_USE": "Y",
+                "COMMENT": "",
+                "NAME_HISTORY": "1993: Native Village of Mekoryuk"
+            },
+            "geometry": {
+                "x": -166.18493663246832,
+                "y": 60.388030577348644
+            }
+        },
+        {
+            "attributes": {
+                "OBJECTID": 183,
+                "NAME": "Tununak",
+                "TRIBE_NAME": "Native Village of Tununak",
+                "CFRTRIBE_1": "Tununak, Native Village of",
+                "TYPE": "Village",
+                "EPA_ID": 100000555,
+                "BIA_CODE": "TBD",
+                "FFS_ID": 500,
+                "CURRENT_TO": 1679875200000,
+                "SOURCE": "EPA",
+                "STATE": "AK",
+                "REGION": "10",
+                "LEAD_REGION": "10",
+                "CURRENT_USE": "Y",
+                "COMMENT": "",
+                "NAME_HISTORY": ""
+            },
+            "geometry": {
+                "x": -165.25573727620196,
+                "y": 60.58554113860393
+            }
+        },
+        {
+            "attributes": {
+                "OBJECTID": 184,
+                "NAME": "Toksook Bay",
+                "TRIBE_NAME": "Nunakauyarmiut Tribe",
+                "CFRTRIBE_1": "Nunakauyarmiut Tribe (Toksook Bay)",
+                "TYPE": "Village",
+                "EPA_ID": 100000491,
+                "BIA_CODE": "TBD",
+                "FFS_ID": 490,
+                "CURRENT_TO": 1679875200000,
+                "SOURCE": "EPA",
+                "STATE": "AK",
+                "REGION": "10",
+                "LEAD_REGION": "10",
+                "CURRENT_USE": "Y",
+                "COMMENT": "BIA TribeCode file does not reflect name change",
+                "NAME_HISTORY": "2000: Nunakauyarmiut Tribe (formerly Native Village of Toksook Bay); \n2009: Nunakauyarmiut Tribe"
+            },
+            "geometry": {
+                "x": -165.1024170187085,
+                "y": 60.530273586803474
+            }
+        },
+        {
+            "attributes": {
+                "OBJECTID": 185,
+                "NAME": "Nightmute",
+                "TRIBE_NAME": "Native Village of Nightmute",
+                "CFRTRIBE_1": "Nightmute, Native Village of",
+                "TYPE": "Village",
+                "EPA_ID": 100000480,
+                "BIA_CODE": "TBD",
+                "FFS_ID": 343,
+                "CURRENT_TO": 1679875200000,
+                "SOURCE": "EPA",
+                "STATE": "AK",
+                "REGION": "10",
+                "LEAD_REGION": "10",
+                "CURRENT_USE": "Y",
+                "COMMENT": "",
+                "NAME_HISTORY": ""
+            },
+            "geometry": {
+                "x": -164.7238764836049,
+                "y": 60.4794306980487
+            }
+        },
+        {
+            "attributes": {
+                "OBJECTID": 186,
+                "NAME": "Newtok",
+                "TRIBE_NAME": "Newtok Village",
+                "CFRTRIBE_1": "Newtok Village",
+                "TYPE": "Village",
+                "EPA_ID": 100000479,
+                "BIA_CODE": "TBD",
+                "FFS_ID": 341,
+                "CURRENT_TO": 1679875200000,
+                "SOURCE": "EPA",
+                "STATE": "AK",
+                "REGION": "10",
+                "LEAD_REGION": "10",
+                "CURRENT_USE": "Y",
+                "COMMENT": "",
+                "NAME_HISTORY": ""
+            },
+            "geometry": {
+                "x": -164.62939448803058,
+                "y": 60.94274894387448
+            }
+        },
+        {
+            "attributes": {
+                "OBJECTID": 187,
+                "NAME": "Kipnuk",
+                "TRIBE_NAME": "Native Village of Kipnuk",
+                "CFRTRIBE_1": "Kipnuk, Native Village of",
+                "TYPE": "Village",
+                "EPA_ID": 100000441,
+                "BIA_CODE": "TBD",
+                "FFS_ID": 255,
+                "CURRENT_TO": 1679875200000,
+                "SOURCE": "EPA",
+                "STATE": "AK",
+                "REGION": "10",
+                "LEAD_REGION": "10",
+                "CURRENT_USE": "Y",
+                "COMMENT": "",
+                "NAME_HISTORY": ""
+            },
+            "geometry": {
+                "x": -164.04138100985716,
+                "y": 59.938873466103416
+            }
+        },
+        {
+            "attributes": {
+                "OBJECTID": 188,
+                "NAME": "Bethel",
+                "TRIBE_NAME": "Orutsararmiut Traditional Native Council",
+                "CFRTRIBE_1": "Orutsararmuit Native Village (Bethel)",
+                "TYPE": "Village",
+                "EPA_ID": 100000496,
+                "BIA_CODE": "TBD",
+                "FFS_ID": 43,
+                "CURRENT_TO": 1679875200000,
+                "SOURCE": "EPA",
+                "STATE": "AK",
+                "REGION": "10",
+                "LEAD_REGION": "10",
+                "CURRENT_USE": "Y",
+                "COMMENT": "",
+                "NAME_HISTORY": "1983: Bethel Native Village (aka Orutsaramuil); \n1985: Bethel Native Village; \n1993: Orutsararmuit Native Village (aka Bethel); \n2014: Orutsararmiut Traditional Native Council (previously listed as Orutsararmuit Native Village (aka Bethel))"
+            },
+            "geometry": {
+                "x": -161.75573727620196,
+                "y": 60.79220679943674
+            }
+        },
+        {
+            "attributes": {
+                "OBJECTID": 189,
+                "NAME": "Tuluksak",
+                "TRIBE_NAME": "Tuluksak Native Community",
+                "CFRTRIBE_1": "Tuluksak Native Community",
+                "TYPE": "Village",
+                "EPA_ID": 100000553,
+                "BIA_CODE": "TBD",
+                "FFS_ID": 497,
+                "CURRENT_TO": 1679875200000,
+                "SOURCE": "EPA",
+                "STATE": "AK",
+                "REGION": "10",
+                "LEAD_REGION": "10",
+                "CURRENT_USE": "Y",
+                "COMMENT": "",
+                "NAME_HISTORY": ""
+            },
+            "geometry": {
+                "x": -160.96154797827398,
+                "y": 61.102477368738704
+            }
+        },
+        {
+            "attributes": {
+                "OBJECTID": 190,
+                "NAME": "Napakiak",
+                "TRIBE_NAME": "Native Village of Napakiak",
+                "CFRTRIBE_1": "Napakiak, Native Village of",
+                "TYPE": "Village",
+                "EPA_ID": 100000472,
+                "BIA_CODE": "TBD",
+                "FFS_ID": 333,
+                "CURRENT_TO": 1679875200000,
+                "SOURCE": "EPA",
+                "STATE": "AK",
+                "REGION": "10",
+                "LEAD_REGION": "10",
+                "CURRENT_USE": "Y",
+                "COMMENT": "",
+                "NAME_HISTORY": ""
+            },
+            "geometry": {
+                "x": -161.95190404345203,
+                "y": 60.696654596660636
+            }
+        },
+        {
+            "attributes": {
+                "OBJECTID": 191,
+                "NAME": "Napaskiak",
+                "TRIBE_NAME": "Native Village of Napaskiak",
+                "CFRTRIBE_1": "Napaskiak, Native Village of",
+                "TYPE": "Village",
+                "EPA_ID": 100000473,
+                "BIA_CODE": "TBD",
+                "FFS_ID": 334,
+                "CURRENT_TO": 1679875200000,
+                "SOURCE": "EPA",
+                "STATE": "AK",
+                "REGION": "10",
+                "LEAD_REGION": "10",
+                "CURRENT_USE": "Y",
+                "COMMENT": "",
+                "NAME_HISTORY": "1993: Native Village of Napaskiak"
+            },
+            "geometry": {
+                "x": -161.7659907463287,
+                "y": 60.70803862401934
+            }
+        },
+        {
+            "attributes": {
+                "OBJECTID": 192,
+                "NAME": "Kwethluk",
+                "TRIBE_NAME": "Organized Village of Kwethluk",
+                "CFRTRIBE_1": "Kwethluk, Organized Village of",
+                "TYPE": "Village",
+                "EPA_ID": 100000453,
+                "BIA_CODE": "TBD",
+                "FFS_ID": 275,
+                "CURRENT_TO": 1679875200000,
+                "SOURCE": "EPA",
+                "STATE": "AK",
+                "REGION": "10",
+                "LEAD_REGION": "10",
+                "CURRENT_USE": "Y",
+                "COMMENT": "",
+                "NAME_HISTORY": ""
+            },
+            "geometry": {
+                "x": -161.4357905853953,
+                "y": 60.81219472943073
+            }
+        },
+        {
+            "attributes": {
+                "OBJECTID": 193,
+                "NAME": "Akiak",
+                "TRIBE_NAME": "Akiak Native Community",
+                "CFRTRIBE_1": "Akiak Native Community",
+                "TYPE": "Village",
+                "EPA_ID": 100000344,
+                "BIA_CODE": "TBD",
+                "FFS_ID": 6,
+                "CURRENT_TO": 1679875200000,
+                "SOURCE": "EPA",
+                "STATE": "AK",
+                "REGION": "10",
+                "LEAD_REGION": "10",
+                "CURRENT_USE": "Y",
+                "COMMENT": "",
+                "NAME_HISTORY": ""
+            },
+            "geometry": {
+                "x": -161.21386743110037,
+                "y": 60.91220076443372
+            }
+        },
+        {
+            "attributes": {
+                "OBJECTID": 194,
+                "NAME": "Akiachak",
+                "TRIBE_NAME": "Akiachak Native Community",
+                "CFRTRIBE_1": "Akiachak Native Community",
+                "TYPE": "Village",
+                "EPA_ID": 100000343,
+                "BIA_CODE": "TBD",
+                "FFS_ID": 5,
+                "CURRENT_TO": 1679875200000,
+                "SOURCE": "EPA",
+                "STATE": "AK",
+                "REGION": "10",
+                "LEAD_REGION": "10",
+                "CURRENT_USE": "Y",
+                "COMMENT": "",
+                "NAME_HISTORY": "1988: Akiachak Native Community"
+            },
+            "geometry": {
+                "x": -161.43127439147054,
+                "y": 60.909423657211846
+            }
+        },
+        {
+            "attributes": {
+                "OBJECTID": 195,
+                "NAME": "Nunapitchuk",
+                "TRIBE_NAME": "Native Village of Nunapitchuk",
+                "CFRTRIBE_1": "Nunapitchuk, Native Village of",
+                "TYPE": "Village",
+                "EPA_ID": 100000493,
+                "BIA_CODE": "TBD",
+                "FFS_ID": 361,
+                "CURRENT_TO": 1679875200000,
+                "SOURCE": "EPA",
+                "STATE": "AK",
+                "REGION": "10",
+                "LEAD_REGION": "10",
+                "CURRENT_USE": "Y",
+                "COMMENT": "",
+                "NAME_HISTORY": ""
+            },
+            "geometry": {
+                "x": -162.45935023134177,
+                "y": 60.896941259303986
+            }
+        },
+        {
+            "attributes": {
+                "OBJECTID": 196,
+                "NAME": "Kasigluk",
+                "TRIBE_NAME": "Kasigluk Traditional Elders Council",
+                "CFRTRIBE_1": "Kasigluk, Native Village of",
+                "TYPE": "Village",
+                "EPA_ID": 100000435,
+                "BIA_CODE": "TBD",
+                "FFS_ID": 241,
+                "CURRENT_TO": 1679875200000,
+                "SOURCE": "EPA",
+                "STATE": "AK",
+                "REGION": "10",
+                "LEAD_REGION": "10",
+                "CURRENT_USE": "Y",
+                "COMMENT": "",
+                "NAME_HISTORY": "2005: Kasigluk Traditional Elders Council (formerly the Native Village of Kasigluk); \n2009: Kasigluk Traditional Elders Council"
+            },
+            "geometry": {
+                "x": -162.5205079460873,
+                "y": 60.89553812110242
+            }
+        },
+        {
+            "attributes": {
+                "OBJECTID": 197,
+                "NAME": "Akhiok",
+                "TRIBE_NAME": "Native Village of Akhiok",
+                "CFRTRIBE_1": "Akhiok, Native Village of",
+                "TYPE": "Village",
+                "EPA_ID": 100000342,
+                "BIA_CODE": "TBD",
+                "FFS_ID": 4,
+                "CURRENT_TO": 1679875200000,
+                "SOURCE": "EPA",
+                "STATE": "AK",
+                "REGION": "10",
+                "LEAD_REGION": "10",
+                "CURRENT_USE": "Y",
+                "COMMENT": "",
+                "NAME_HISTORY": ""
+            },
+            "geometry": {
+                "x": -154.17016596258298,
+                "y": 56.94552605109638
+            }
+        },
+        {
+            "attributes": {
+                "OBJECTID": 198,
+                "NAME": "Port Lions",
+                "TRIBE_NAME": "Native Village of Port Lions",
+                "CFRTRIBE_1": "Port Lions, Native Village of",
+                "TYPE": "Village",
+                "EPA_ID": 100000512,
+                "BIA_CODE": "TBD",
+                "FFS_ID": 398,
+                "CURRENT_TO": 1679875200000,
+                "SOURCE": "EPA",
+                "STATE": "AK",
+                "REGION": "10",
+                "LEAD_REGION": "10",
+                "CURRENT_USE": "Y",
+                "COMMENT": "",
+                "NAME_HISTORY": ""
+            },
+            "geometry": {
+                "x": -152.88220177026756,
+                "y": 57.867492456246254
+            }
+        },
+        {
+            "attributes": {
+                "OBJECTID": 199,
+                "NAME": "Old Harbor",
+                "TRIBE_NAME": "Alutiiq Tribe of Old Harbor",
+                "CFRTRIBE_1": "Old Harbor, Village of",
+                "TYPE": "Village",
+                "EPA_ID": 100000495,
+                "BIA_CODE": "TBD",
+                "FFS_ID": 367,
+                "CURRENT_TO": 1679875200000,
+                "SOURCE": "EPA",
+                "STATE": "AK",
+                "REGION": "10",
+                "LEAD_REGION": "10",
+                "CURRENT_USE": "Y",
+                "COMMENT": "",
+                "NAME_HISTORY": "2015: Native Village of Old Harbor;\n2016: Alutiiq Tribe of Old Harbor"
+            },
+            "geometry": {
+                "x": -153.30383323274995,
+                "y": 57.202759002212844
+            }
+        },
+        {
+            "attributes": {
+                "OBJECTID": 200,
+                "NAME": "Larsen Bay",
+                "TRIBE_NAME": "Native Village of Larsen Bay",
+                "CFRTRIBE_1": "Larsen Bay, Native Village of",
+                "TYPE": "Village",
+                "EPA_ID": 100000456,
+                "BIA_CODE": "TBD",
+                "FFS_ID": 279,
+                "CURRENT_TO": 1679875200000,
+                "SOURCE": "EPA",
+                "STATE": "AK",
+                "REGION": "10",
+                "LEAD_REGION": "10",
+                "CURRENT_USE": "Y",
+                "COMMENT": "",
+                "NAME_HISTORY": ""
+            },
+            "geometry": {
+                "x": -153.9785153892577,
+                "y": 57.53997787165562
+            }
+        },
+        {
+            "attributes": {
+                "OBJECTID": 201,
+                "NAME": "Chignik Bay",
+                "TRIBE_NAME": "Chignik Bay Tribal Council",
+                "CFRTRIBE_1": "Chignik Bay Tribal Council",
+                "TYPE": "Village",
+                "EPA_ID": 100000376,
+                "BIA_CODE": "TBD",
+                "FFS_ID": 83,
+                "CURRENT_TO": 1679875200000,
+                "SOURCE": "EPA",
+                "STATE": "AK",
+                "REGION": "10",
+                "LEAD_REGION": "10",
+                "CURRENT_USE": "Y",
+                "COMMENT": "",
+                "NAME_HISTORY": "2007: Chignik Bay Tribal Council (formerly the Native Village of Chignik)"
+            },
+            "geometry": {
+                "x": -158.4022218869443,
+                "y": 56.29525749346209
+            }
+        },
+        {
+            "attributes": {
+                "OBJECTID": 202,
+                "NAME": "Egegik",
+                "TRIBE_NAME": "Egegik Village",
+                "CFRTRIBE_1": "Egegik Village",
+                "TYPE": "Village",
+                "EPA_ID": 100000397,
+                "BIA_CODE": "TBD",
+                "FFS_ID": 133,
+                "CURRENT_TO": 1679875200000,
+                "SOURCE": "EPA",
+                "STATE": "AK",
+                "REGION": "10",
+                "LEAD_REGION": "10",
+                "CURRENT_USE": "Y",
+                "COMMENT": "",
+                "NAME_HISTORY": ""
+            },
+            "geometry": {
+                "x": -157.37573224703277,
+                "y": 58.215545161939275
+            }
+        },
+        {
+            "attributes": {
+                "OBJECTID": 203,
+                "NAME": "Pilot Point",
+                "TRIBE_NAME": "Native Village of Pilot Point",
+                "CFRTRIBE_1": "Pilot Point, Native Village of",
+                "TYPE": "Village",
+                "EPA_ID": 100000504,
+                "BIA_CODE": "TBD",
+                "FFS_ID": 383,
+                "CURRENT_TO": 1679875200000,
+                "SOURCE": "EPA",
+                "STATE": "AK",
+                "REGION": "10",
+                "LEAD_REGION": "10",
+                "CURRENT_USE": "Y",
+                "COMMENT": "",
+                "NAME_HISTORY": ""
+            },
+            "geometry": {
+                "x": -157.57910179038421,
+                "y": 57.56414805874073
+            }
+        },
+        {
+            "attributes": {
+                "OBJECTID": 204,
+                "NAME": "Ugashik",
+                "TRIBE_NAME": "Ugashik Village",
+                "CFRTRIBE_1": "Ugashik Village",
+                "TYPE": "Village",
+                "EPA_ID": 100000558,
+                "BIA_CODE": "TBD",
+                "FFS_ID": 506,
+                "CURRENT_TO": 1679875200000,
+                "SOURCE": "EPA",
+                "STATE": "AK",
+                "REGION": "10",
+                "LEAD_REGION": "10",
+                "CURRENT_USE": "Y",
+                "COMMENT": "",
+                "NAME_HISTORY": ""
+            },
+            "geometry": {
+                "x": -157.3974612753973,
+                "y": 57.51303158318248
+            }
+        },
+        {
+            "attributes": {
+                "OBJECTID": 205,
+                "NAME": "Sand Point",
+                "TRIBE_NAME": "Qagan Tayagungin Tribe of Sand Point",
+                "CFRTRIBE_1": "Qagan Tayagungin Tribe of Sand Point",
+                "TYPE": "Village",
+                "EPA_ID": 100000515,
+                "BIA_CODE": "TBD",
+                "FFS_ID": 424,
+                "CURRENT_TO": 1679875200000,
+                "SOURCE": "EPA",
+                "STATE": "AK",
+                "REGION": "10",
+                "LEAD_REGION": "10",
+                "CURRENT_USE": "Y",
+                "COMMENT": "",
+                "NAME_HISTORY": "1993: Qagan Toyagungin Tribe of Sand Point Village; \n2000: Qagan Tayagungin Tribe of Sand Point Village; \n2020: Qagan Tayagungin Tribe of Sand Point"
+            },
+            "geometry": {
+                "x": -160.49719271776303,
+                "y": 55.33972138402737
+            }
+        },
+        {
+            "attributes": {
+                "OBJECTID": 206,
+                "NAME": "Nikolski",
+                "TRIBE_NAME": "Native Village of Nikolski",
+                "CFRTRIBE_1": "Nikolski, Native Village of",
+                "TYPE": "Village",
+                "EPA_ID": 100000482,
+                "BIA_CODE": "TBD",
+                "FFS_ID": 346,
+                "CURRENT_TO": 1679875200000,
+                "SOURCE": "EPA",
+                "STATE": "AK",
+                "REGION": "10",
+                "LEAD_REGION": "10",
+                "CURRENT_USE": "Y",
+                "COMMENT": "",
+                "NAME_HISTORY": ""
+            },
+            "geometry": {
+                "x": -168.86767551800443,
+                "y": 52.93804968819154
+            }
+        },
+        {
+            "attributes": {
+                "OBJECTID": 207,
+                "NAME": "Telida",
+                "TRIBE_NAME": "Telida Village",
+                "CFRTRIBE_1": "Telida Village",
+                "TYPE": "Village",
+                "EPA_ID": 100000548,
+                "BIA_CODE": "TBD",
+                "FFS_ID": 479,
+                "CURRENT_TO": 1679875200000,
+                "SOURCE": "EPA",
+                "STATE": "AK",
+                "REGION": "10",
+                "LEAD_REGION": "10",
+                "CURRENT_USE": "Y",
+                "COMMENT": "",
+                "NAME_HISTORY": ""
+            },
+            "geometry": {
+                "x": -153.26666264333133,
+                "y": 63.38333132166568
+            }
+        },
+        {
+            "attributes": {
+                "OBJECTID": 208,
+                "NAME": "Douglas",
+                "TRIBE_NAME": "Douglas Indian Association",
+                "CFRTRIBE_1": "Douglas Indian Association",
+                "TYPE": "Village",
+                "EPA_ID": 100000394,
+                "BIA_CODE": "TBD",
+                "FFS_ID": 128,
+                "CURRENT_TO": 1679875200000,
+                "SOURCE": "EPA",
+                "STATE": "AK",
+                "REGION": "10",
+                "LEAD_REGION": "10",
+                "CURRENT_USE": "Y",
+                "COMMENT": "",
+                "NAME_HISTORY": ""
+            },
+            "geometry": {
+                "x": -134.38756487628243,
+                "y": 58.265846912090126
+            }
+        },
+        {
+            "attributes": {
+                "OBJECTID": 209,
+                "NAME": "Atqasuk",
+                "TRIBE_NAME": "Native Village of Atqasuk",
+                "CFRTRIBE_1": "Native Village of Atqasuk",
+                "TYPE": "Village",
+                "EPA_ID": 100000361,
+                "BIA_CODE": "TBD",
+                "FFS_ID": 28,
+                "CURRENT_TO": 1679875200000,
+                "SOURCE": "EPA",
+                "STATE": "AK",
+                "REGION": "10",
+                "LEAD_REGION": "10",
+                "CURRENT_USE": "Y",
+                "COMMENT": "",
+                "NAME_HISTORY": "1993: Atqasuk Village (Atkasook); \n2021: Native Village of Atqasuk"
+            },
+            "geometry": {
+                "x": -157.3957523637095,
+                "y": 70.46942265137801
+            }
+        },
+        {
+            "attributes": {
+                "OBJECTID": 210,
+                "NAME": "Chilkat",
+                "TRIBE_NAME": "Chilkat Indian Village (Klukwan)",
+                "CFRTRIBE_1": "Chilkat Indian Village (Klukwan)",
+                "TYPE": "Village",
+                "EPA_ID": 100000379,
+                "BIA_CODE": "TBD",
+                "FFS_ID": 259,
+                "CURRENT_TO": 1679875200000,
+                "SOURCE": "EPA",
+                "STATE": "AK",
+                "REGION": "10",
+                "LEAD_REGION": "10",
+                "CURRENT_USE": "Y",
+                "COMMENT": "",
+                "NAME_HISTORY": "1993: Chilkat Indian Village (Kluckwan); \n2000: Chilkat Indian Village (Klukwan)"
+            },
+            "geometry": {
+                "x": -135.89380506940253,
+                "y": 59.39914604707303
+            }
+        },
+        {
+            "attributes": {
+                "OBJECTID": 211,
+                "NAME": "Chilkoot",
+                "TRIBE_NAME": "Chilkoot Indian Association (Haines)",
+                "CFRTRIBE_1": "Chilkoot Indian Association (Haines)",
+                "TYPE": "Village",
+                "EPA_ID": 100000380,
+                "BIA_CODE": "TBD",
+                "FFS_ID": 186,
+                "CURRENT_TO": 1679875200000,
+                "SOURCE": "EPA",
+                "STATE": "AK",
+                "REGION": "10",
+                "LEAD_REGION": "10",
+                "CURRENT_USE": "Y",
+                "COMMENT": "",
+                "NAME_HISTORY": "1993: Chilkoot Indian Association (Haines)"
+            },
+            "geometry": {
+                "x": -135.44512572922952,
+                "y": 59.23585395292699
+            }
+        },
+        {
+            "attributes": {
+                "OBJECTID": 212,
+                "NAME": "Golovin",
+                "TRIBE_NAME": "Chinik Eskimo Community (Golovin)",
+                "CFRTRIBE_1": "Chinik Eskimo Community (Golovin)",
+                "TYPE": "Village",
+                "EPA_ID": 100000381,
+                "BIA_CODE": "TBD",
+                "FFS_ID": 177,
+                "CURRENT_TO": 1679875200000,
+                "SOURCE": "EPA",
+                "STATE": "AK",
+                "REGION": "10",
+                "LEAD_REGION": "10",
+                "CURRENT_USE": "Y",
+                "COMMENT": "",
+                "NAME_HISTORY": "1993: Chinik Eskimo Community (Golovin)"
+            },
+            "geometry": {
+                "x": -163.03204687185678,
+                "y": 64.55575538121104
+            }
+        },
+        {
+            "attributes": {
+                "OBJECTID": 213,
+                "NAME": "Dillingham",
+                "TRIBE_NAME": "Curyung Tribal Council",
+                "CFRTRIBE_1": "Curyung Tribal Council (Dillingham)",
+                "TYPE": "Village",
+                "EPA_ID": 100000390,
+                "BIA_CODE": "TBD",
+                "FFS_ID": 121,
+                "CURRENT_TO": 1679875200000,
+                "SOURCE": "EPA",
+                "STATE": "AK",
+                "REGION": "10",
+                "LEAD_REGION": "10",
+                "CURRENT_USE": "Y",
+                "COMMENT": "",
+                "NAME_HISTORY": "1997: Curyung Tribal Council (formerly Native Village of Dillingham); \n2007: Curyung Tribal Council"
+            },
+            "geometry": {
+                "x": -158.4573979078656,
+                "y": 59.03970327901831
+            }
+        },
+        {
+            "attributes": {
+                "OBJECTID": 214,
+                "NAME": "Lower Kalskag",
+                "TRIBE_NAME": "Village of Lower Kalskag",
+                "CFRTRIBE_1": "Lower Kalskag, Village of",
+                "TYPE": "Village",
+                "EPA_ID": 100000459,
+                "BIA_CODE": "TBD",
+                "FFS_ID": 291,
+                "CURRENT_TO": 1679875200000,
+                "SOURCE": "EPA",
+                "STATE": "AK",
+                "REGION": "10",
+                "LEAD_REGION": "10",
+                "CURRENT_USE": "Y",
+                "COMMENT": "",
+                "NAME_HISTORY": ""
+            },
+            "geometry": {
+                "x": -160.35821162743915,
+                "y": 61.51223697445184
+            }
+        },
+        {
+            "attributes": {
+                "OBJECTID": 215,
+                "NAME": "Kalskag",
+                "TRIBE_NAME": "Village of Kalskag",
+                "CFRTRIBE_1": "Kalskag, Village of (Upper)",
+                "TYPE": "Village",
+                "EPA_ID": 100000430,
+                "BIA_CODE": "TBD",
+                "FFS_ID": 232,
+                "CURRENT_TO": 1679875200000,
+                "SOURCE": "EPA",
+                "STATE": "AK",
+                "REGION": "10",
+                "LEAD_REGION": "10",
+                "CURRENT_USE": "Y",
+                "COMMENT": "",
+                "NAME_HISTORY": ""
+            },
+            "geometry": {
+                "x": -160.30529571514785,
+                "y": 61.53723898611952
+            }
+        },
+        {
+            "attributes": {
+                "OBJECTID": 216,
+                "NAME": "Kenaitze",
+                "TRIBE_NAME": "Kenaitze Indian Tribe",
+                "CFRTRIBE_1": "Kenaitze Indian Tribe (Kenai)",
+                "TYPE": "Village",
+                "EPA_ID": 100000436,
+                "BIA_CODE": "TBD",
+                "FFS_ID": 246,
+                "CURRENT_TO": 1679875200000,
+                "SOURCE": "EPA",
+                "STATE": "AK",
+                "REGION": "10",
+                "LEAD_REGION": "10",
+                "CURRENT_USE": "Y",
+                "COMMENT": "",
+                "NAME_HISTORY": ""
+            },
+            "geometry": {
+                "x": -151.2584882317441,
+                "y": 60.55451015892177
+            }
+        },
+        {
+            "attributes": {
+                "OBJECTID": 217,
+                "NAME": "Copper Center",
+                "TRIBE_NAME": "Native Village of Kluti Kaah (aka Copper Center)",
+                "CFRTRIBE_1": "Kluti Kaah, Native Village of (Copper Center - Previously Kluti-Kaah)",
+                "TYPE": "Village",
+                "EPA_ID": 100000444,
+                "BIA_CODE": "TBD",
+                "FFS_ID": 102,
+                "CURRENT_TO": 1679875200000,
+                "SOURCE": "EPA",
+                "STATE": "AK",
+                "REGION": "10",
+                "LEAD_REGION": "10",
+                "CURRENT_USE": "Y",
+                "COMMENT": "See notes 1/12/2023 and 1/8/2024",
+                "NAME_HISTORY": "1993: Native Village of Kluti Kaah (aka Copper Center)\n2023: Native Village of Kluti Kaah (a.k.a. Copper Center)\n2024: Native Village of Kluti Kaah (aka Copper Center)"
+            },
+            "geometry": {
+                "x": -145.3053580768457,
+                "y": 61.95506135586402
+            }
+        },
+        {
+            "attributes": {
+                "OBJECTID": 218,
+                "NAME": "Quinhagak",
+                "TRIBE_NAME": "Native Village of Kwinhagak (aka Quinhagak)",
+                "CFRTRIBE_1": "Kwinhagak, Native Village of",
+                "TYPE": "Village",
+                "EPA_ID": 100000455,
+                "BIA_CODE": "TBD",
+                "FFS_ID": 407,
+                "CURRENT_TO": 1679875200000,
+                "SOURCE": "EPA",
+                "STATE": "AK",
+                "REGION": "10",
+                "LEAD_REGION": "10",
+                "CURRENT_USE": "Y",
+                "COMMENT": "See notes 1/12/2023 and 1/8/2024",
+                "NAME_HISTORY": "1982: Native Village of Kwinhagak (aka Quinhagak)\n2023: Native Village of Kwinhagak (a.k.a. Quinhagak)\n2024: Native Village of Kwinhagak (aka Quinhagak)"
+            },
+            "geometry": {
+                "x": -161.9159736471535,
+                "y": 59.748921746127564
+            }
+        },
+        {
+            "attributes": {
+                "OBJECTID": 219,
+                "NAME": "Pilot Station",
+                "TRIBE_NAME": "Pilot Station Traditional Village",
+                "CFRTRIBE_1": "Pilot Station Traditional Village",
+                "TYPE": "Village",
+                "EPA_ID": 100000505,
+                "BIA_CODE": "TBD",
+                "FFS_ID": 384,
+                "CURRENT_TO": 1679875200000,
+                "SOURCE": "EPA",
+                "STATE": "AK",
+                "REGION": "10",
+                "LEAD_REGION": "10",
+                "CURRENT_USE": "Y",
+                "COMMENT": "",
+                "NAME_HISTORY": ""
+            },
+            "geometry": {
+                "x": -162.8750965600483,
+                "y": 61.939110842888766
+            }
+        },
+        {
+            "attributes": {
+                "OBJECTID": 220,
+                "NAME": "Pitkas Point",
+                "TRIBE_NAME": "Pitka's Point Traditional Council",
+                "CFRTRIBE_1": "Pitka's Point Traditional Council",
+                "TYPE": "Village",
+                "EPA_ID": 100000506,
+                "BIA_CODE": "TBD",
+                "FFS_ID": 385,
+                "CURRENT_TO": 1679875200000,
+                "SOURCE": "EPA",
+                "STATE": "AK",
+                "REGION": "10",
+                "LEAD_REGION": "10",
+                "CURRENT_USE": "Y",
+                "COMMENT": "",
+                "NAME_HISTORY": "2020: Pitka's Point Traditional Council"
+            },
+            "geometry": {
+                "x": -163.28773285053308,
+                "y": 62.03278615972644
+            }
+        },
+        {
+            "attributes": {
+                "OBJECTID": 221,
+                "NAME": "Saint George",
+                "TRIBE_NAME": "Saint George Island (See Pribilof Islands Aleut Communities of St. Paul & St. George Islands)",
+                "CFRTRIBE_1": "Saint George Island (See Pribilof Islands Aleut Communities of St. Paul & St. George Islands)",
+                "TYPE": "Village",
+                "EPA_ID": 100000520,
+                "BIA_CODE": "TBD",
+                "FFS_ID": 455,
+                "CURRENT_TO": 1679875200000,
+                "SOURCE": "EPA",
+                "STATE": "AK",
+                "REGION": "10",
+                "LEAD_REGION": "10",
+                "CURRENT_USE": "Y",
+                "COMMENT": "",
+                "NAME_HISTORY": "1993: Saint George (See Pribilof Islands Aleut Communities of St. Paul & St. George Islands); \n1997: St. George (See Pribilof Islands Aleut Communities of St. Paul & St. George Islands); \n1998: Saint George (See Pribilof Islands Aleut Communities of St. Paul & St. George Islands); \n2000: Saint George Island (See Pribilof Islands Aleut Communities of St. Paul & St. George Islands)"
+            },
+            "geometry": {
+                "x": -169.54605009052506,
+                "y": 56.603027559847135
+            }
+        },
+        {
+            "attributes": {
+                "OBJECTID": 222,
+                "NAME": "Kanatak",
+                "TRIBE_NAME": "Native Village of Kanatak",
+                "CFRTRIBE_1": "Kanatak, Native Village of (Included In Egegik)",
+                "TYPE": "Village",
+                "EPA_ID": 100000432,
+                "BIA_CODE": "TBD",
+                "FFS_ID": 630,
+                "CURRENT_TO": 1679875200000,
+                "SOURCE": "EPA",
+                "STATE": "AK",
+                "REGION": "10",
+                "LEAD_REGION": "10",
+                "CURRENT_USE": "Y",
+                "COMMENT": "",
+                "NAME_HISTORY": ""
+            },
+            "geometry": {
+                "x": -156.03641319653994,
+                "y": 57.56896801448403
+            }
+        },
+        {
+            "attributes": {
+                "OBJECTID": 223,
+                "NAME": "AndreafskI",
+                "TRIBE_NAME": "Yupiit of Andreafski",
+                "CFRTRIBE_1": "Andreafski, Yupiit of",
+                "TYPE": "Village",
+                "EPA_ID": 100000353,
+                "BIA_CODE": "TBD",
+                "FFS_ID": 19,
+                "CURRENT_TO": 1679875200000,
+                "SOURCE": "EPA",
+                "STATE": "AK",
+                "REGION": "10",
+                "LEAD_REGION": "10",
+                "CURRENT_USE": "Y",
+                "COMMENT": "",
+                "NAME_HISTORY": "1993: Yupiit of Andreafski"
+            },
+            "geometry": {
+                "x": -163.37766747133372,
+                "y": 62.064022329511175
+            }
+        },
+        {
+            "attributes": {
+                "OBJECTID": 224,
+                "NAME": "Saint Paul",
+                "TRIBE_NAME": "Saint Paul Island (See Pribilof Islands Aleut Communities of St. Paul & St. George Islands)",
+                "CFRTRIBE_1": "Saint Paul Island (See Pribilof Islands Aleut Communities of St. Paul & St. George Islands)",
+                "TYPE": "Village",
+                "EPA_ID": 100000522,
+                "BIA_CODE": "TBD",
+                "FFS_ID": 458,
+                "CURRENT_TO": 1679875200000,
+                "SOURCE": "EPA",
+                "STATE": "AK",
+                "REGION": "10",
+                "LEAD_REGION": "10",
+                "CURRENT_USE": "Y",
+                "COMMENT": "See Notes (1/28/2022)",
+                "NAME_HISTORY": "1993: Saint Paul (See Pribilof Islands Aleut Communities of St. Paul & St. George Islands); \n1997: St .Paul (See Pribilof Islands Aleut Communities of St. Paul & St. George Islands); \n1998: Saint Paul (See Pribilof Islands Aleut Communities of St. Paul & St. George Islands); \n2000: Saint Paul Island (See Pribilof Islands Aleut Communities of St. Paul & St. George Islands)"
+            },
+            "geometry": {
+                "x": -170.26525950512976,
+                "y": 57.13784248642125
+            }
+        },
+        {
+            "attributes": {
+                "OBJECTID": 225,
+                "NAME": "Kodiak",
+                "TRIBE_NAME": "Sun'aq Tribe of Kodiak",
+                "CFRTRIBE_1": "Sun'aq Tribe of Kodiak",
+                "TYPE": "Town",
+                "EPA_ID": 100000541,
+                "BIA_CODE": "TBD",
+                "FFS_ID": 804,
+                "CURRENT_TO": 1679875200000,
+                "SOURCE": "EPA",
+                "STATE": "AK",
+                "REGION": "10",
+                "LEAD_REGION": "10",
+                "CURRENT_USE": "Y",
+                "COMMENT": "Not listed on BIA TribeCode list",
+                "NAME_HISTORY": "2002: Shoonaq' Tribe of Kodiak; \n2005: Sun'aq Tribe of Kodiak (formerly the Shoonaq' Tribe of Kodiak)"
+            },
+            "geometry": {
+                "x": -152.40710420438543,
+                "y": 57.78997787165562
+            }
+        },
+        {
+            "attributes": {
+                "OBJECTID": 226,
+                "NAME": "Inupiat",
+                "TRIBE_NAME": "Inupiat Community of the Arctic Slope",
+                "CFRTRIBE_1": "Inupiat Community of the Arctic Slope",
+                "TYPE": "Village",
+                "EPA_ID": 100000424,
+                "BIA_CODE": "TBD",
+                "FFS_ID": null,
+                "CURRENT_TO": 1679875200000,
+                "SOURCE": "EPA",
+                "STATE": "AK",
+                "REGION": "10",
+                "LEAD_REGION": "10",
+                "CURRENT_USE": "Y",
+                "COMMENT": "",
+                "NAME_HISTORY": ""
+            },
+            "geometry": {
+                "x": -156.7885737276202,
+                "y": 71.29052605109638
+            }
+        },
+        {
+            "attributes": {
+                "OBJECTID": 227,
+                "NAME": "Village of Venetie",
+                "TRIBE_NAME": "Village of Venetie (See Native Village of Venetie Tribal Government)",
+                "CFRTRIBE_1": "Village of Venetie (See Native Village of Venetie Tribal Government)",
+                "TYPE": "Village",
+                "EPA_ID": 100000562,
+                "BIA_CODE": "TBD",
+                "FFS_ID": null,
+                "CURRENT_TO": 1679875200000,
+                "SOURCE": "EPA",
+                "STATE": "AK",
+                "REGION": "10",
+                "LEAD_REGION": "10",
+                "CURRENT_USE": "Y",
+                "COMMENT": "See Notes (1/28/2022)",
+                "NAME_HISTORY": "1993: Village of Venetie (See Native Village of Venetie Tribal Government)"
+            },
+            "geometry": {
+                "x": -146.42392878696438,
+                "y": 67.01800040233354
+            }
+        }
+    ]
+}
