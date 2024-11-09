@@ -1,5 +1,6 @@
 """
-USING SCRAPY FRAMEWORK TO EXTRACT FEATURECLASS FROM A MAPSERVICE
+USING SCRAPY FRAMEWORK TO EXTRACT FEATURECLASS FROM A MAPSERVICE -
+--Actual data links removed for security
 """
 import sys
 import os
@@ -67,7 +68,7 @@ class SampleSpider(scrapy.Spider):
 
 class SampleSpider(scrapy.Spider):
     name = "sample"
-    start_urls = ['https://maps.dggs.alaska.gov/gmc/search.json']
+    start_urls = ['https://insert_name/gmc/search.json']
 
     custom_settings = {
         'FEEDS': {
