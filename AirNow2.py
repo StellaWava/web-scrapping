@@ -17,7 +17,8 @@ import requests
 #STEP 2
 #NOTE**we could link the script to the previous but not now.
 #instead ingest the file from our storage folder
-data_file = pd.read_csv('filtered_output.csv')
+data_file = pd.read_csv(r'C:\Users\pc\Desktop\STELLA_SPACE\dpp_scrapy\web-scrapping\filtered_output.csv')
+#data_file = pd.read_csv('filtered_output.csv')
 
 # Define indexes of interest for demo
 indexes = [2, 6,9,15,33,60] #, 8, 11, 17, 35, 62
@@ -62,7 +63,8 @@ highlighted script below.
 """
 
 # #---------------------------------------
-# with open('Air_Now_Site_Data_3485_3372.json') as f:
+# json_file = 'Air_Now_Site_Data_3485_3372.json'
+# with open(json_file) as f:
 #     data = json.load(f)
 
 # # Open a CSV file to write to
